@@ -1,3 +1,4 @@
+import os
 import re
 from datetime import datetime
 from pathlib import Path
@@ -17,7 +18,7 @@ class MetadataLinks:
     def __init__(self, href: str, dither: str) -> None:
         self.asset_href = href
         self.dither = dither
-        self.id = href.rsplit("/", [1 if not href.endswith("/") else 2][0])[1]
+        self.id = os.path.basename(os.path.normpath(href))
         self.h5_href = self._href_modifier(href, extension=".h5")
         self.ann_href = self._href_modifier(href, extension=".ann", frequency="129A")
 
@@ -93,9 +94,10 @@ class AnnotatedMetadata:
 
 class Metadata:
     def __init__(
-        self, href: str, h5_metadata: Any, ann_metadata: Dict[str, Any]
+        self, href: str, id: str, h5_metadata: Any, ann_metadata: Dict[str, Any]
     ) -> None:
         self.href = href
+        self.versionless_id = id[: id.rfind("_")]
         self.h5_metadata = h5_metadata
         self.ann_metadata = ann_metadata
 
@@ -155,7 +157,7 @@ class Metadata:
 
     @property
     def inventory(self) -> Dict[str, str]:
-        files = {k: v for k, v in self.ann_metadata.items() if self.href in v}
+        files = {k: v for k, v in self.ann_metadata.items() if self.versionless_id in v}
 
         if files is None:
             raise ValueError(

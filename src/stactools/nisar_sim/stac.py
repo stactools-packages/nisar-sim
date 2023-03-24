@@ -100,7 +100,7 @@ def create_item(product_path: str, dither: str) -> Item:
     metalinks = MetadataLinks(product_path, dither)
     h5_data = HDF5Metadata(metalinks.h5_href)
     ann_data = AnnotatedMetadata(metalinks.ann_href)
-    metadata = Metadata(product_path, h5_data.metadata, ann_data.metadata)
+    metadata = Metadata(product_path, metalinks.id, h5_data.metadata, ann_data.metadata)
 
     item = Item(
         id=metalinks.id,
