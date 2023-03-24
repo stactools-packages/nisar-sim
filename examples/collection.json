@@ -1,0 +1,3830 @@
+{
+  "type": "Collection",
+  "id": "nisar-sim",
+  "stac_version": "1.0.0",
+  "description": "Simulated NISAR products are specialized UAVSAR PolSAR products. They include files described in the UAVSAR PolSAR Data Format but with different number of MLC looks and GRD grid; as well as additional NISAR RSLC HDF5 files, radiometric terrain correction layer, and flat earth incidence angle files.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "/workspaces/nisar-sim/collection.json",
+      "type": "application/json",
+      "title": "Simulated NISAR"
+    },
+    {
+      "rel": "documentation",
+      "href": "https://uavsar.jpl.nasa.gov/science/documents/nisar-sample-products.html",
+      "type": "application/html",
+      "title": "Simulated NISAR Products documentation",
+      "description": "Simulated NISAR products are generated from UAVSAR data to emulate NISAR data characteristics in order to help users test their algorithms and get a sense of the quality of future NISAR products. Click on the links below to go to the desired section."
+    },
+    {
+      "rel": "license",
+      "href": "https://www.jpl.nasa.gov/jpl-image-use-policy",
+      "title": "NASA/JPL-Caltech Image Use Policy"
+    },
+    {
+      "rel": "self",
+      "href": "/workspaces/nisar-sim/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json"
+  ],
+  "item_assets": {
+    "XX_129A.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_XX_129A.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_XX_129A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_XX_129A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_XX_129A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129A.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129A.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129A.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129A.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129A.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129A.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "XX_129.h5": {
+      "title": "No Dither: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "XG_129A.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_XG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XG_129.h5": {
+      "title": "",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "XD_129A.ann": {
+      "title": "Dithered Without Gaps: 129A Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_XD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "XD_129.h5": {
+      "title": "Dithered Without Gaps: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129B.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_XX_129B.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_XX_129B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_XX_129B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_XX_129B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129B.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129B.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129B.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129B.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129B.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_129B.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "XG_129B.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_XG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XD_129B.ann": {
+      "title": "Dithered Without Gaps: 129B Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_XD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138A.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_XX_138A.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_XX_138A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_XX_138A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_XX_138A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138A.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138A.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138A.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138A.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138A.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138A.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "XX_138.h5": {
+      "title": "No Dither: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "XG_138A.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_XG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XG_138.h5": {
+      "title": "",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "XD_138A.ann": {
+      "title": "Dithered Without Gaps: 138A Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_XD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "XD_138.h5": {
+      "title": "Dithered Without Gaps: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138B.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_XX_138B.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_XX_138B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_XX_138B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_XX_138B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138B.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138B.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138B.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138B.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138B.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_138B.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "XG_138B.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_XG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XD_138B.ann": {
+      "title": "Dithered Without Gaps: 138B Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_XD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143A.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_XX_143A.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_XX_143A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_XX_143A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_XX_143A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143A.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143A.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143A.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143A.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143A.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143A.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "XX_143.h5": {
+      "title": "No Dither: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "XG_143A.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_XG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XG_143.h5": {
+      "title": "",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "XD_143A.ann": {
+      "title": "Dithered Without Gaps: 143A Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_XD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "XD_143.h5": {
+      "title": "Dithered Without Gaps: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143B.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_XX_143B.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_XX_143B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_XX_143B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_XX_143B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_XX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143B.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143B.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143B.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143B.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143B.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "XX_143B.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "XG_143B.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_XG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "XD_143B.ann": {
+      "title": "Dithered Without Gaps: 143B Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_XD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_XD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_XD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_XD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_XD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_XD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129A.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_CX_129A.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_CX_129A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_CX_129A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_CX_129A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_129A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129A.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129A.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129A.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129A.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129A.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129A.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "CX_129.h5": {
+      "title": "No Dither: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "CG_129A.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_CG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CG_129A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CG_129.h5": {
+      "title": "",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "CD_129A.ann": {
+      "title": "Dithered Without Gaps: 129A Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_CD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CD_129A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "CD_129.h5": {
+      "title": "Dithered Without Gaps: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_CX_129B.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_CX_129B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_CX_129B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_CX_129B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_129B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "CG_129B.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_CG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CG_129B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CD_129B.ann": {
+      "title": "Dithered Without Gaps: 129B Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_CD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CD_129B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138A.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_CX_138A.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_CX_138A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_CX_138A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_CX_138A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_138A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138A.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138A.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138A.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138A.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138A.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138A.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "CX_138.h5": {
+      "title": "No Dither: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "CG_138A.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_CG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CG_138A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CG_138.h5": {
+      "title": "",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "CD_138A.ann": {
+      "title": "Dithered Without Gaps: 138A Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_CD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CD_138A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "CD_138.h5": {
+      "title": "Dithered Without Gaps: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138B.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_CX_138B.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_CX_138B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_CX_138B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_CX_138B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_138B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138B.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138B.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138B.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138B.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138B.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_138B.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "CG_138B.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_CG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CG_138B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CD_138B.ann": {
+      "title": "Dithered Without Gaps: 138B Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_CD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CD_138B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143A.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_CX_143A.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_CX_143A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_CX_143A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_CX_143A.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_143A.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143A.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143A.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143A.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143A.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143A.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143A.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "CX_143.h5": {
+      "title": "No Dither: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "CG_143A.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_CG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CG_143A.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CG_143.h5": {
+      "title": "",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "CD_143A.ann": {
+      "title": "Dithered Without Gaps: 143A Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_CD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CD_143A.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "CD_143.h5": {
+      "title": "Dithered Without Gaps: HDF5 Data File",
+      "type": "",
+      "description": "HDF5 file in NISAR format",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143B.ann": {
+      "title": "No Dither: Annotation File",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HH_CX_143B.slc": {
+      "title": "HH: Horizontal Transmit, Horizontal Receive",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_CX_143B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_CX_143B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_CX_143B.slc": {
+      "title": "",
+      "type": "image/x-slc",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_143B.mlc": {
+      "title": "",
+      "type": "",
+      "description": "single look complex slant range image",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143B.hgt": {
+      "title": "",
+      "type": "",
+      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143B.inc": {
+      "title": "",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143B.flat.inc": {
+      "title": "Flat Earth Incidence Angle File",
+      "type": "",
+      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143B.slope": {
+      "title": "",
+      "type": "",
+      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143B.rtc": {
+      "title": "",
+      "type": "",
+      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_143B.kmz": {
+      "title": "",
+      "type": "",
+      "description": "",
+      "role": [
+        "overlay"
+      ]
+    },
+    "CG_143B.ann": {
+      "title": "",
+      "type": "text/plain",
+      "description": "",
+      "role": [
+        ""
+      ]
+    },
+    "HHHH_CG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CG_143B.grd": {
+      "title": "",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data",
+      "role": [
+        "data"
+      ]
+    },
+    "CD_143B.ann": {
+      "title": "Dithered Without Gaps: 143B Annotation File",
+      "type": "text/plain",
+      "description": "Anno",
+      "role": [
+        "metadata"
+      ]
+    },
+    "HHHH_CD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHH",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct VVVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHHV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct HHVV",
+      "type": "",
+      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CD_143B.grd": {
+      "title": "Projected multi-looked data for crossproduct HVVV",
+      "type": "",
+      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    }
+  },
+  "title": "Simulated NISAR",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2008-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "NASA/JPL-Caltech",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://www.jpl.nasa.gov/caltechjpl-privacy-policies-and-important-notices"
+    },
+    {
+      "name": "NASA/JPL-Caltech",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.jpl.nasa.gov/caltechjpl-privacy-policies-and-important-notices"
+    }
+  ],
+  "summaries": {
+    "platform": [
+      "NISAR"
+    ],
+    "sar:looks_range": [
+      1
+    ],
+    "sar:product_type": [
+      "RSLC"
+    ],
+    "sar:looks_azimuth": [
+      2
+    ],
+    "sar:polarizations": [
+      [
+        "HH",
+        "HH"
+      ],
+      [
+        "HV",
+        "HV"
+      ],
+      [
+        "VV",
+        "VV"
+      ],
+      [
+        "HH",
+        "VV"
+      ],
+      [
+        "HV",
+        "VV"
+      ]
+    ],
+    "sar:frequency_band": [
+      "A",
+      "B"
+    ],
+    "sar:instrument_mode": [
+      ""
+    ],
+    "sar:center_frequency": [
+      1.243,
+      1.27,
+      1.253,
+      1.275,
+      1.243,
+      1.263
+    ],
+    "sat:absolute_orbit": [
+      19069,
+      19049
+    ]
+  }
+}

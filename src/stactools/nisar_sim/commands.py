@@ -3,22 +3,22 @@ import logging
 import click
 from click import Command, Group
 
-from stactools.ephemeral import stac
+from stactools.nisar_sim import stac
 
 logger = logging.getLogger(__name__)
 
 
-def create_ephemeralcmd_command(cli: Group) -> Command:
-    """Creates the stactools-ephemeral command line utility."""
+def create_nisarsim_command(cli: Group) -> Command:
+    """Creates the stactools-nisar-sim command line utility."""
 
     @cli.group(
-        "ephemeralcmd",
-        short_help=("Commands for working with stactools-ephemeral"),
+        "nisarsim",
+        short_help=("Commands for working with stactools-nisar-sim"),
     )
-    def ephemeralcmd() -> None:
+    def nisarsim() -> None:
         pass
 
-    @ephemeralcmd.command(
+    @nisarsim.command(
         "create-collection",
         short_help="Creates a STAC collection",
     )
@@ -37,20 +37,20 @@ def create_ephemeralcmd_command(cli: Group) -> Command:
 
         return None
 
-    @ephemeralcmd.command("create-item", short_help="Create a STAC item")
+    @nisarsim.command("create-item", short_help="Create a STAC item")
     @click.argument("source")
     @click.argument("destination")
-    def create_item_command(source: str, destination: str) -> None:
+    def create_item_command(source: str, destination: str, dither: str) -> None:
         """Creates a STAC Item
 
         Args:
             source (str): HREF of the Asset associated with the Item
             destination (str): An HREF for the STAC Item
         """
-        item = stac.create_item(source)
+        item = stac.create_item(source, dither)
 
         item.save_object(dest_href=destination)
 
         return None
 
-    return ephemeralcmd
+    return nisarsim

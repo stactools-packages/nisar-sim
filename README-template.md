@@ -1,17 +1,17 @@
-# stactools-ephemeral
+# stactools-nisar-sim
 
-[![PyPI](https://img.shields.io/pypi/v/stactools-ephemeral)](https://pypi.org/project/stactools-ephemeral/)
+[![PyPI](https://img.shields.io/pypi/v/stactools-nisar-sim)](https://pypi.org/project/stactools-nisar-sim/)
 
-- Name: ephemeral
-- Package: `stactools.ephemeral`
-- [stactools-ephemeral on PyPI](https://pypi.org/project/stactools-ephemeral/)
+- Name: nisar-sim
+- Package: `stactools.nisar_sim`
+- [stactools-nisar-sim on PyPI](https://pypi.org/project/stactools-nisar-sim/)
 - Owner: @githubusername
 - [Dataset homepage](http://example.com)
 - STAC extensions used:
   - [proj](https://github.com/stac-extensions/projection/)
 - Extra fields:
-  - `ephemeral:custom`: A custom attribute
-- [Browse the example in human-readable form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/ephemeral/main/examples/collection.json)
+  - `nisar-sim:custom`: A custom attribute
+- [Browse the example in human-readable form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/nisar-sim/main/examples/collection.json)
 
 A short description of the package and its usage.
 
@@ -23,7 +23,7 @@ A short description of the package and its usage.
 ## Installation
 
 ```shell
-pip install stactools-ephemeral
+pip install stactools-nisar-sim
 ```
 
 ## Command-line Usage
@@ -31,10 +31,10 @@ pip install stactools-ephemeral
 Description of the command line functions
 
 ```shell
-stac ephemeral create-item source destination
+stac nisar-sim create-item source destination
 ```
 
-Use `stac ephemeral --help` to see all subcommands and options.
+Use `stac nisar-sim --help` to see all subcommands and options.
 
 ## Contributing
 
