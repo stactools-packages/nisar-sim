@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "/workspaces/nisar-sim/collection.json",
+      "href": "/workspaces/nisar-sim/examples/collection.json",
       "type": "application/json",
       "title": "Simulated NISAR"
     },
@@ -24,7 +24,7 @@
     },
     {
       "rel": "self",
-      "href": "/workspaces/nisar-sim/collection.json",
+      "href": "/workspaces/nisar-sim/examples/collection.json",
       "type": "application/json"
     }
   ],
@@ -36,3697 +36,3685 @@
   ],
   "item_assets": {
     "XX_129A.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "XX_129A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 129A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_XX_129A.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_129A HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_XX_129A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_129A HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_XX_129A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_129A VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_XX_129A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_129A VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129A HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129A HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129A VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129A HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129A HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129A HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_129A.grd": {
-      "title": "",
+      "title": "XX_129A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_129A.grd": {
-      "title": "",
+      "title": "XX_129A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_129A.grd": {
-      "title": "",
+      "title": "XX_129A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_129A.grd": {
-      "title": "",
+      "title": "XX_129A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_129A.grd": {
-      "title": "",
+      "title": "XX_129A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_129A.grd": {
-      "title": "",
+      "title": "XX_129A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XX_129A.hgt": {
-      "title": "",
+      "title": "XX_129A HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "XX_129A.inc": {
-      "title": "",
+      "title": "XX_129A Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "XX_129A.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "XX_129A Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "XX_129A.slope": {
-      "title": "",
+      "title": "XX_129A Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "XX_129A.rtc": {
-      "title": "",
+      "title": "XX_129A Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "XX_129A.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "XX_129A Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "XX_129.h5": {
-      "title": "No Dither: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "XD_129 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "No Dither: 129 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "XG_129A.ann": {
-      "title": "",
+      "title": "XG_129A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 129A Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_XG_129A.grd": {
-      "title": "",
+      "title": "XG_129A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XG_129A.grd": {
-      "title": "",
+      "title": "XG_129A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XG_129A.grd": {
-      "title": "",
+      "title": "XG_129A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XG_129A.grd": {
-      "title": "",
+      "title": "XG_129A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XG_129A.grd": {
-      "title": "",
+      "title": "XG_129A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XG_129A.grd": {
-      "title": "",
+      "title": "XG_129A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XG_129.h5": {
-      "title": "",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "XD_129 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered With Gaps: 129 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "XD_129A.ann": {
-      "title": "Dithered Without Gaps: 129A Annotation File",
+      "title": "XD_129A Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 129A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_XD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "XD_129A Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "XD_129A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "XD_129A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "XD_129A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "XD_129A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "XD_129A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XD_129.h5": {
-      "title": "Dithered Without Gaps: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "XD_129 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered Without Gaps: 129 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "XX_129B.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "XX_129B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 129B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_XX_129B.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_129B HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_XX_129B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_129B HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_XX_129B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_129B VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_XX_129B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_129B VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129B HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129B HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129B VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129B HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129B HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_129B HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_129B.grd": {
-      "title": "",
+      "title": "XX_129B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_129B.grd": {
-      "title": "",
+      "title": "XX_129B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_129B.grd": {
-      "title": "",
+      "title": "XX_129B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_129B.grd": {
-      "title": "",
+      "title": "XX_129B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_129B.grd": {
-      "title": "",
+      "title": "XX_129B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_129B.grd": {
-      "title": "",
+      "title": "XX_129B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XX_129B.hgt": {
-      "title": "",
+      "title": "XX_129B HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "XX_129B.inc": {
-      "title": "",
+      "title": "XX_129B Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "XX_129B.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "XX_129B Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "XX_129B.slope": {
-      "title": "",
+      "title": "XX_129B Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "XX_129B.rtc": {
-      "title": "",
+      "title": "XX_129B Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "XX_129B.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "XX_129B Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "XG_129B.ann": {
-      "title": "",
+      "title": "XG_129B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 129B Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_XG_129B.grd": {
-      "title": "",
+      "title": "XG_129B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XG_129B.grd": {
-      "title": "",
+      "title": "XG_129B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XG_129B.grd": {
-      "title": "",
+      "title": "XG_129B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XG_129B.grd": {
-      "title": "",
+      "title": "XG_129B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XG_129B.grd": {
-      "title": "",
+      "title": "XG_129B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XG_129B.grd": {
-      "title": "",
+      "title": "XG_129B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XD_129B.ann": {
-      "title": "Dithered Without Gaps: 129B Annotation File",
+      "title": "XD_129B Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 129B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_XD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "XD_129B Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "XD_129B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "XD_129B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "XD_129B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "XD_129B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "XD_129B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XX_138A.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "XX_138A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 138A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_XX_138A.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_138A HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_XX_138A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_138A HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_XX_138A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_138A VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_XX_138A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_138A VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138A HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138A HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138A VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138A HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138A HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138A HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_138A.grd": {
-      "title": "",
+      "title": "XX_138A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_138A.grd": {
-      "title": "",
+      "title": "XX_138A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_138A.grd": {
-      "title": "",
+      "title": "XX_138A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_138A.grd": {
-      "title": "",
+      "title": "XX_138A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_138A.grd": {
-      "title": "",
+      "title": "XX_138A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_138A.grd": {
-      "title": "",
+      "title": "XX_138A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XX_138A.hgt": {
-      "title": "",
+      "title": "XX_138A HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "XX_138A.inc": {
-      "title": "",
+      "title": "XX_138A Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "XX_138A.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "XX_138A Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "XX_138A.slope": {
-      "title": "",
+      "title": "XX_138A Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "XX_138A.rtc": {
-      "title": "",
+      "title": "XX_138A Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "XX_138A.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "XX_138A Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "XX_138.h5": {
-      "title": "No Dither: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "XD_138 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "No Dither: 138 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "XG_138A.ann": {
-      "title": "",
+      "title": "XG_138A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 138A Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_XG_138A.grd": {
-      "title": "",
+      "title": "XG_138A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XG_138A.grd": {
-      "title": "",
+      "title": "XG_138A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XG_138A.grd": {
-      "title": "",
+      "title": "XG_138A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XG_138A.grd": {
-      "title": "",
+      "title": "XG_138A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XG_138A.grd": {
-      "title": "",
+      "title": "XG_138A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XG_138A.grd": {
-      "title": "",
+      "title": "XG_138A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XG_138.h5": {
-      "title": "",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "XD_138 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered With Gaps: 138 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "XD_138A.ann": {
-      "title": "Dithered Without Gaps: 138A Annotation File",
+      "title": "XD_138A Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 138A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_XD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "XD_138A Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "XD_138A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "XD_138A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "XD_138A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "XD_138A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "XD_138A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XD_138.h5": {
-      "title": "Dithered Without Gaps: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "XD_138 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered Without Gaps: 138 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "XX_138B.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "XX_138B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 138B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_XX_138B.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_138B HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_XX_138B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_138B HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_XX_138B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_138B VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_XX_138B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_138B VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138B HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138B HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138B VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138B HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138B HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_138B HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_138B.grd": {
-      "title": "",
+      "title": "XX_138B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_138B.grd": {
-      "title": "",
+      "title": "XX_138B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_138B.grd": {
-      "title": "",
+      "title": "XX_138B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_138B.grd": {
-      "title": "",
+      "title": "XX_138B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_138B.grd": {
-      "title": "",
+      "title": "XX_138B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_138B.grd": {
-      "title": "",
+      "title": "XX_138B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XX_138B.hgt": {
-      "title": "",
+      "title": "XX_138B HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "XX_138B.inc": {
-      "title": "",
+      "title": "XX_138B Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "XX_138B.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "XX_138B Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "XX_138B.slope": {
-      "title": "",
+      "title": "XX_138B Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "XX_138B.rtc": {
-      "title": "",
+      "title": "XX_138B Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "XX_138B.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "XX_138B Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "XG_138B.ann": {
-      "title": "",
+      "title": "XG_138B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 138B Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_XG_138B.grd": {
-      "title": "",
+      "title": "XG_138B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XG_138B.grd": {
-      "title": "",
+      "title": "XG_138B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XG_138B.grd": {
-      "title": "",
+      "title": "XG_138B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XG_138B.grd": {
-      "title": "",
+      "title": "XG_138B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XG_138B.grd": {
-      "title": "",
+      "title": "XG_138B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XG_138B.grd": {
-      "title": "",
+      "title": "XG_138B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XD_138B.ann": {
-      "title": "Dithered Without Gaps: 138B Annotation File",
+      "title": "XD_138B Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 138B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_XD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "XD_138B Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "XD_138B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "XD_138B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "XD_138B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "XD_138B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "XD_138B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XX_143A.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "XX_143A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 143A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_XX_143A.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_143A HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_XX_143A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_143A HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_XX_143A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_143A VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_XX_143A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_143A VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143A HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143A HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143A VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143A HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143A HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143A HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_143A.grd": {
-      "title": "",
+      "title": "XX_143A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_143A.grd": {
-      "title": "",
+      "title": "XX_143A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_143A.grd": {
-      "title": "",
+      "title": "XX_143A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_143A.grd": {
-      "title": "",
+      "title": "XX_143A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_143A.grd": {
-      "title": "",
+      "title": "XX_143A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_143A.grd": {
-      "title": "",
+      "title": "XX_143A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XX_143A.hgt": {
-      "title": "",
+      "title": "XX_143A HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "XX_143A.inc": {
-      "title": "",
+      "title": "XX_143A Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "XX_143A.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "XX_143A Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "XX_143A.slope": {
-      "title": "",
+      "title": "XX_143A Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "XX_143A.rtc": {
-      "title": "",
+      "title": "XX_143A Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "XX_143A.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "XX_143A Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "XX_143.h5": {
-      "title": "No Dither: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "XD_143 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "No Dither: 143 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "XG_143A.ann": {
-      "title": "",
+      "title": "XG_143A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 143A Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_XG_143A.grd": {
-      "title": "",
+      "title": "XG_143A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XG_143A.grd": {
-      "title": "",
+      "title": "XG_143A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XG_143A.grd": {
-      "title": "",
+      "title": "XG_143A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XG_143A.grd": {
-      "title": "",
+      "title": "XG_143A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XG_143A.grd": {
-      "title": "",
+      "title": "XG_143A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XG_143A.grd": {
-      "title": "",
+      "title": "XG_143A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XG_143.h5": {
-      "title": "",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "XD_143 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered With Gaps: 143 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "XD_143A.ann": {
-      "title": "Dithered Without Gaps: 143A Annotation File",
+      "title": "XD_143A Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 143A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_XD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "XD_143A Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "XD_143A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "XD_143A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "XD_143A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "XD_143A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "XD_143A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XD_143.h5": {
-      "title": "Dithered Without Gaps: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "XD_143 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered Without Gaps: 143 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "XX_143B.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "XX_143B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 143B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_XX_143B.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_143B HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_XX_143B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_143B HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_XX_143B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_143B VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_XX_143B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "XX_143B VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143B HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143B HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143B VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143B HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143B HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "XX_143B HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_XX_143B.grd": {
-      "title": "",
+      "title": "XX_143B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XX_143B.grd": {
-      "title": "",
+      "title": "XX_143B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XX_143B.grd": {
-      "title": "",
+      "title": "XX_143B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XX_143B.grd": {
-      "title": "",
+      "title": "XX_143B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XX_143B.grd": {
-      "title": "",
+      "title": "XX_143B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XX_143B.grd": {
-      "title": "",
+      "title": "XX_143B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XX_143B.hgt": {
-      "title": "",
+      "title": "XX_143B HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "XX_143B.inc": {
-      "title": "",
+      "title": "XX_143B Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "XX_143B.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "XX_143B Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "XX_143B.slope": {
-      "title": "",
+      "title": "XX_143B Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "XX_143B.rtc": {
-      "title": "",
+      "title": "XX_143B Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "XX_143B.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "XX_143B Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "XG_143B.ann": {
-      "title": "",
+      "title": "XG_143B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 143B Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_XG_143B.grd": {
-      "title": "",
+      "title": "XG_143B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XG_143B.grd": {
-      "title": "",
+      "title": "XG_143B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XG_143B.grd": {
-      "title": "",
+      "title": "XG_143B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XG_143B.grd": {
-      "title": "",
+      "title": "XG_143B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XG_143B.grd": {
-      "title": "",
+      "title": "XG_143B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XG_143B.grd": {
-      "title": "",
+      "title": "XG_143B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "XD_143B.ann": {
-      "title": "Dithered Without Gaps: 143B Annotation File",
+      "title": "XD_143B Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 143B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_XD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "XD_143B Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_XD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "XD_143B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_XD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "XD_143B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_XD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "XD_143B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_XD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "XD_143B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_XD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "XD_143B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CX_129A.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "CX_129A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 129A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_CX_129A.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_129A HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_CX_129A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_129A HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_CX_129A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_129A VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_CX_129A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_129A VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129A HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129A HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129A VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129A HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129A HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_129A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129A HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_129A.grd": {
-      "title": "",
+      "title": "CX_129A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_129A.grd": {
-      "title": "",
+      "title": "CX_129A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_129A.grd": {
-      "title": "",
+      "title": "CX_129A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_129A.grd": {
-      "title": "",
+      "title": "CX_129A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_129A.grd": {
-      "title": "",
+      "title": "CX_129A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_129A.grd": {
-      "title": "",
+      "title": "CX_129A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CX_129A.hgt": {
-      "title": "",
+      "title": "CX_129A HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "CX_129A.inc": {
-      "title": "",
+      "title": "CX_129A Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "CX_129A.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "CX_129A Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "CX_129A.slope": {
-      "title": "",
+      "title": "CX_129A Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "CX_129A.rtc": {
-      "title": "",
+      "title": "CX_129A Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "CX_129A.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "CX_129A Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "CX_129.h5": {
-      "title": "No Dither: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "CD_129 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "No Dither: 129 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "CG_129A.ann": {
-      "title": "",
+      "title": "CG_129A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 129A Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_CG_129A.grd": {
-      "title": "",
+      "title": "CG_129A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CG_129A.grd": {
-      "title": "",
+      "title": "CG_129A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CG_129A.grd": {
-      "title": "",
+      "title": "CG_129A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CG_129A.grd": {
-      "title": "",
+      "title": "CG_129A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CG_129A.grd": {
-      "title": "",
+      "title": "CG_129A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CG_129A.grd": {
-      "title": "",
+      "title": "CG_129A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CG_129.h5": {
-      "title": "",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "CD_129 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered With Gaps: 129 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "CD_129A.ann": {
-      "title": "Dithered Without Gaps: 129A Annotation File",
+      "title": "CD_129A Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 129A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_CD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "CD_129A Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "CD_129A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "CD_129A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "CD_129A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "CD_129A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CD_129A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "CD_129A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CD_129.h5": {
-      "title": "Dithered Without Gaps: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "CD_129 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered Without Gaps: 129 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "CX_129B.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "CX_129B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 129B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_CX_129B.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_129B HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_CX_129B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_129B HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_CX_129B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_129B VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_CX_129B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_129B VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129B HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129B HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129B VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129B HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129B HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_129B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_129B HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_129B.grd": {
-      "title": "",
+      "title": "CX_129B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_129B.grd": {
-      "title": "",
+      "title": "CX_129B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_129B.grd": {
-      "title": "",
+      "title": "CX_129B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_129B.grd": {
-      "title": "",
+      "title": "CX_129B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_129B.grd": {
-      "title": "",
+      "title": "CX_129B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_129B.grd": {
-      "title": "",
+      "title": "CX_129B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CX_129B.hgt": {
-      "title": "",
+      "title": "CX_129B HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "CX_129B.inc": {
-      "title": "",
+      "title": "CX_129B Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "CX_129B.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "CX_129B Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "CX_129B.slope": {
-      "title": "",
+      "title": "CX_129B Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "CX_129B.rtc": {
-      "title": "",
+      "title": "CX_129B Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "CX_129B.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "CX_129B Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "CG_129B.ann": {
-      "title": "",
+      "title": "CG_129B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 129B Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_CG_129B.grd": {
-      "title": "",
+      "title": "CG_129B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CG_129B.grd": {
-      "title": "",
+      "title": "CG_129B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CG_129B.grd": {
-      "title": "",
+      "title": "CG_129B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CG_129B.grd": {
-      "title": "",
+      "title": "CG_129B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CG_129B.grd": {
-      "title": "",
+      "title": "CG_129B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CG_129B.grd": {
-      "title": "",
+      "title": "CG_129B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CD_129B.ann": {
-      "title": "Dithered Without Gaps: 129B Annotation File",
+      "title": "CD_129B Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 129B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_CD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "CD_129B Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "CD_129B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "CD_129B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "CD_129B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "CD_129B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CD_129B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "CD_129B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CX_138A.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "CX_138A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 138A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_CX_138A.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_138A HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_CX_138A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_138A HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_CX_138A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_138A VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_CX_138A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_138A VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138A HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138A HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138A VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138A HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138A HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_138A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138A HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_138A.grd": {
-      "title": "",
+      "title": "CX_138A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_138A.grd": {
-      "title": "",
+      "title": "CX_138A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_138A.grd": {
-      "title": "",
+      "title": "CX_138A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_138A.grd": {
-      "title": "",
+      "title": "CX_138A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_138A.grd": {
-      "title": "",
+      "title": "CX_138A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_138A.grd": {
-      "title": "",
+      "title": "CX_138A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CX_138A.hgt": {
-      "title": "",
+      "title": "CX_138A HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "CX_138A.inc": {
-      "title": "",
+      "title": "CX_138A Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "CX_138A.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "CX_138A Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "CX_138A.slope": {
-      "title": "",
+      "title": "CX_138A Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "CX_138A.rtc": {
-      "title": "",
+      "title": "CX_138A Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "CX_138A.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "CX_138A Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "CX_138.h5": {
-      "title": "No Dither: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "CD_138 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "No Dither: 138 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "CG_138A.ann": {
-      "title": "",
+      "title": "CG_138A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 138A Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_CG_138A.grd": {
-      "title": "",
+      "title": "CG_138A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CG_138A.grd": {
-      "title": "",
+      "title": "CG_138A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CG_138A.grd": {
-      "title": "",
+      "title": "CG_138A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CG_138A.grd": {
-      "title": "",
+      "title": "CG_138A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CG_138A.grd": {
-      "title": "",
+      "title": "CG_138A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CG_138A.grd": {
-      "title": "",
+      "title": "CG_138A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CG_138.h5": {
-      "title": "",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "CD_138 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered With Gaps: 138 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "CD_138A.ann": {
-      "title": "Dithered Without Gaps: 138A Annotation File",
+      "title": "CD_138A Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 138A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_CD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "CD_138A Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "CD_138A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "CD_138A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "CD_138A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "CD_138A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CD_138A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "CD_138A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CD_138.h5": {
-      "title": "Dithered Without Gaps: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "CD_138 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered Without Gaps: 138 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "CX_138B.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "CX_138B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 138B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_CX_138B.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_138B HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_CX_138B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_138B HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_CX_138B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_138B VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_CX_138B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_138B VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138B HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138B HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138B VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138B HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138B HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_138B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_138B HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_138B.grd": {
-      "title": "",
+      "title": "CX_138B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_138B.grd": {
-      "title": "",
+      "title": "CX_138B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_138B.grd": {
-      "title": "",
+      "title": "CX_138B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_138B.grd": {
-      "title": "",
+      "title": "CX_138B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_138B.grd": {
-      "title": "",
+      "title": "CX_138B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_138B.grd": {
-      "title": "",
+      "title": "CX_138B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CX_138B.hgt": {
-      "title": "",
+      "title": "CX_138B HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "CX_138B.inc": {
-      "title": "",
+      "title": "CX_138B Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "CX_138B.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "CX_138B Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "CX_138B.slope": {
-      "title": "",
+      "title": "CX_138B Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "CX_138B.rtc": {
-      "title": "",
+      "title": "CX_138B Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "CX_138B.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "CX_138B Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "CG_138B.ann": {
-      "title": "",
+      "title": "CG_138B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 138B Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_CG_138B.grd": {
-      "title": "",
+      "title": "CG_138B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CG_138B.grd": {
-      "title": "",
+      "title": "CG_138B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CG_138B.grd": {
-      "title": "",
+      "title": "CG_138B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CG_138B.grd": {
-      "title": "",
+      "title": "CG_138B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CG_138B.grd": {
-      "title": "",
+      "title": "CG_138B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CG_138B.grd": {
-      "title": "",
+      "title": "CG_138B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CD_138B.ann": {
-      "title": "Dithered Without Gaps: 138B Annotation File",
+      "title": "CD_138B Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 138B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_CD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "CD_138B Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "CD_138B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "CD_138B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "CD_138B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "CD_138B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CD_138B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "CD_138B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CX_143A.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "CX_143A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 143A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_CX_143A.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_143A HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_CX_143A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_143A HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_CX_143A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_143A VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_CX_143A.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_143A VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143A HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143A HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143A VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143A HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143A HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_143A.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143A HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_143A.grd": {
-      "title": "",
+      "title": "CX_143A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_143A.grd": {
-      "title": "",
+      "title": "CX_143A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_143A.grd": {
-      "title": "",
+      "title": "CX_143A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_143A.grd": {
-      "title": "",
+      "title": "CX_143A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_143A.grd": {
-      "title": "",
+      "title": "CX_143A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_143A.grd": {
-      "title": "",
+      "title": "CX_143A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CX_143A.hgt": {
-      "title": "",
+      "title": "CX_143A HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "CX_143A.inc": {
-      "title": "",
+      "title": "CX_143A Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "CX_143A.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "CX_143A Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "CX_143A.slope": {
-      "title": "",
+      "title": "CX_143A Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "CX_143A.rtc": {
-      "title": "",
+      "title": "CX_143A Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "CX_143A.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "CX_143A Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "CX_143.h5": {
-      "title": "No Dither: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "CD_143 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "No Dither: 143 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "CG_143A.ann": {
-      "title": "",
+      "title": "CG_143A Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 143A Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_CG_143A.grd": {
-      "title": "",
+      "title": "CG_143A Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CG_143A.grd": {
-      "title": "",
+      "title": "CG_143A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CG_143A.grd": {
-      "title": "",
+      "title": "CG_143A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CG_143A.grd": {
-      "title": "",
+      "title": "CG_143A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CG_143A.grd": {
-      "title": "",
+      "title": "CG_143A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CG_143A.grd": {
-      "title": "",
+      "title": "CG_143A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CG_143.h5": {
-      "title": "",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "CD_143 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered With Gaps: 143 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "CD_143A.ann": {
-      "title": "Dithered Without Gaps: 143A Annotation File",
+      "title": "CD_143A Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 143A Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_CD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "CD_143A Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "CD_143A Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "CD_143A Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "CD_143A Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "CD_143A Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CD_143A.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "CD_143A Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CD_143.h5": {
-      "title": "Dithered Without Gaps: HDF5 Data File",
-      "type": "",
-      "description": "HDF5 file in NISAR format",
+      "title": "CD_143 HDF5 Data File",
+      "type": "application/x-hdf5",
+      "description": "Dithered Without Gaps: 143 Frequency HDF5 file in NISAR format",
       "role": [
         "data"
       ]
     },
     "CX_143B.ann": {
-      "title": "No Dither: Annotation File",
+      "title": "CX_143B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "No Dither: 143B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HH_CX_143B.slc": {
-      "title": "HH: Horizontal Transmit, Horizontal Receive",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_143B HH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HH polarization",
       "role": [
         "data"
       ]
     },
     "HV_CX_143B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_143B HV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for HV polarization",
       "role": [
         "data"
       ]
     },
     "VH_CX_143B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_143B VH Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VH polarization",
       "role": [
         "data"
       ]
     },
     "VV_CX_143B.slc": {
-      "title": "",
-      "type": "image/x-slc",
-      "description": "single look complex slant range image",
+      "title": "CX_143B VV Polarization Single Look Complex File",
+      "type": "application/octet-stream",
+      "description": "Single look complex slant range image for VV polarization",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143B HHHH Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143B HVHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143B VVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143B HHHV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143B HHVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_143B.mlc": {
-      "title": "",
-      "type": "",
-      "description": "single look complex slant range image",
+      "title": "CX_143B HVVV Crossproduct Multi Look File",
+      "type": "application/octet-stream",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "HHHH_CX_143B.grd": {
-      "title": "",
+      "title": "CX_143B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CX_143B.grd": {
-      "title": "",
+      "title": "CX_143B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CX_143B.grd": {
-      "title": "",
+      "title": "CX_143B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CX_143B.grd": {
-      "title": "",
+      "title": "CX_143B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CX_143B.grd": {
-      "title": "",
+      "title": "CX_143B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CX_143B.grd": {
-      "title": "",
+      "title": "CX_143B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CX_143B.hgt": {
-      "title": "",
+      "title": "CX_143B HGT File",
       "type": "",
-      "description": "digital elevation model (DEM) used during processing and ground projection",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
       ]
     },
     "CX_143B.inc": {
-      "title": "",
+      "title": "CX_143B Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
       ]
     },
     "CX_143B.flat.inc": {
-      "title": "Flat Earth Incidence Angle File",
+      "title": "CX_143B Flat Earth Incidence Angle File",
       "type": "",
-      "description": "ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
       ]
     },
     "CX_143B.slope": {
-      "title": "",
+      "title": "CX_143B Terrain Slope File",
       "type": "",
-      "description": "ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
       ]
     },
     "CX_143B.rtc": {
-      "title": "",
+      "title": "CX_143B Radiometric Terrain Correction Factor",
       "type": "",
-      "description": "radiometric terrain correction factor that can be applied to grd files",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
       ]
     },
     "CX_143B.kmz": {
-      "title": "",
-      "type": "",
-      "description": "",
+      "title": "CX_143B Keyhole Markup Language Zipped File",
+      "type": "application/vnd.google-earth.kmz",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
       "role": [
         "overlay"
       ]
     },
     "CG_143B.ann": {
-      "title": "",
+      "title": "CG_143B Annotation File",
       "type": "text/plain",
-      "description": "",
+      "description": "Dithered With Gaps: 143B Annotation File",
       "role": [
-        ""
+        "metadata"
       ]
     },
     "HHHH_CG_143B.grd": {
-      "title": "",
+      "title": "CG_143B Ground Range Projected File for Crossproduct HHHH",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CG_143B.grd": {
-      "title": "",
+      "title": "CG_143B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CG_143B.grd": {
-      "title": "",
+      "title": "CG_143B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CG_143B.grd": {
-      "title": "",
+      "title": "CG_143B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CG_143B.grd": {
-      "title": "",
+      "title": "CG_143B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CG_143B.grd": {
-      "title": "",
+      "title": "CG_143B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data",
+      "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
     },
     "CD_143B.ann": {
-      "title": "Dithered Without Gaps: 143B Annotation File",
+      "title": "CD_143B Annotation File",
       "type": "text/plain",
-      "description": "Anno",
+      "description": "Dithered Without Gaps: 143B Annotation File",
       "role": [
         "metadata"
       ]
     },
     "HHHH_CD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHH",
-      "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "title": "CD_143B Ground Range Projected File for Crossproduct HHHH",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
       ]
     },
     "HVHV_CD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVHV",
+      "title": "CD_143B Ground Range Projected File for Crossproduct HVHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
       ]
     },
     "VVVV_CD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct VVVV",
+      "title": "CD_143B Ground Range Projected File for Crossproduct VVVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
       ]
     },
     "HHHV_CD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHHV",
+      "title": "CD_143B Ground Range Projected File for Crossproduct HHHV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
       ]
     },
     "HHVV_CD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct HHVV",
+      "title": "CD_143B Ground Range Projected File for Crossproduct HHVV",
       "type": "",
-      "description": "ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
       ]
     },
     "HVVV_CD_143B.grd": {
-      "title": "Projected multi-looked data for crossproduct HVVV",
+      "title": "CD_143B Ground Range Projected File for Crossproduct HVVV",
       "type": "",
-      "description": "Ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
       ]
@@ -3754,6 +3742,11 @@
     }
   },
   "license": "proprietary",
+  "keywords": [
+    "SAR",
+    "NISAR",
+    "Simulated"
+  ],
   "providers": [
     {
       "name": "NASA/JPL-Caltech",
@@ -3812,7 +3805,7 @@
       "B"
     ],
     "sar:instrument_mode": [
-      ""
+      "L"
     ],
     "sar:center_frequency": [
       1.243,

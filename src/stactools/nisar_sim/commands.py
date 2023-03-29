@@ -1,4 +1,5 @@
 import logging
+import os
 
 import click
 from click import Command, Group
@@ -40,6 +41,7 @@ def create_nisarsim_command(cli: Group) -> Command:
     @nisarsim.command("create-item", short_help="Create a STAC item")
     @click.argument("source")
     @click.argument("destination")
+    @click.argument("dither")
     def create_item_command(source: str, destination: str, dither: str) -> None:
         """Creates a STAC Item
 
@@ -48,6 +50,11 @@ def create_nisarsim_command(cli: Group) -> Command:
             destination (str): An HREF for the STAC Item
         """
         item = stac.create_item(source, dither)
+        json_file = os.path.basename(source)
+        json_path = os.path.join(destination, f"{json_file}.json")
+        item.set_self_href(os.path.basename(json_path))
+
+        item.validate()
 
         item.save_object(dest_href=destination)
 

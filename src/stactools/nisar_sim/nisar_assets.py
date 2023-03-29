@@ -427,9 +427,7 @@ def get_assets(
         str
     ] = None,  # TODO: Should we create stac items for specific frequencies?
 ) -> Dict[str, AssetDefinition]:
-    all_frequencies = [
-        f"{freq}{suffix}" for freq in c.FREQUENCIES for suffix in ["A", "B"]
-    ]
+    all_frequencies = [f"{freq}{suffix}" for freq in c.NMODE for suffix in ["A", "B"]]
     assets = {}
 
     if collection:
@@ -439,12 +437,14 @@ def get_assets(
                 assets.update(NISAR_SIM_ASSETS_DITHERED_WITH_GAPS(_talk, _frequency))
                 assets.update(NISAR_SIM_ASSETS_DITHERED_WITHOUT_GAPS(_talk, _frequency))
     if dither:
+        if not xtalk:
+            xtalk = "C"
         for _frequency in all_frequencies:
             if dither == "X":
-                assets.update(NISAR_SIM_ASSETS_NO_DITHER(_talk, _frequency))
+                assets.update(NISAR_SIM_ASSETS_NO_DITHER(xtalk, _frequency))
             if dither == "G":
-                assets.update(NISAR_SIM_ASSETS_DITHERED_WITH_GAPS(_talk, _frequency))
+                assets.update(NISAR_SIM_ASSETS_DITHERED_WITH_GAPS(xtalk, _frequency))
             if dither == "D":
-                assets.update(NISAR_SIM_ASSETS_DITHERED_WITHOUT_GAPS(_talk, _frequency))
+                assets.update(NISAR_SIM_ASSETS_DITHERED_WITHOUT_GAPS(xtalk, _frequency))
 
     return assets

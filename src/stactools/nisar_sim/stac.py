@@ -1,4 +1,6 @@
+# import json
 import logging
+import re
 
 from pystac import Collection, Item, Summaries
 from pystac.extensions.item_assets import ItemAssetsExtension
@@ -12,6 +14,8 @@ from stactools.nisar_sim.metadata import (
     HDF5Metadata,
     Metadata,
     MetadataLinks,
+    fill_sar_properties,
+    fill_sat_properties,
 )
 from stactools.nisar_sim.nisar_assets import get_assets
 
@@ -100,7 +104,7 @@ def create_item(product_path: str, dither: str) -> Item:
     metalinks = MetadataLinks(product_path, dither)
     h5_data = HDF5Metadata(metalinks.h5_href)
     ann_data = AnnotatedMetadata(metalinks.ann_href)
-    metadata = Metadata(product_path, metalinks.id, h5_data.metadata, ann_data.metadata)
+    metadata = Metadata(product_path, metalinks.id, h5_data, ann_data)
 
     item = Item(
         id=metalinks.id,
@@ -113,13 +117,33 @@ def create_item(product_path: str, dither: str) -> Item:
 
     proj_attrs = ProjectionExtension.ext(item, add_if_missing=True)
     proj_attrs.epsg = 4326
+
     # proj_attrs.shape = [1, 1]  # TODO: KMZ?
     # proj_attrs.transform = [-180, 360, 0, 90, 0, 180]  # TODO: KMZ?
 
-    expected_assets = get_assets(dither=dither)
+    get_xtalk = re.search(r"_(\w)\w_", metalinks.id)
+    xtalk = get_xtalk.group(1) if get_xtalk else "C"
+    version = metalinks.id.rsplit("_", 1)[1]
+
+    expected_assets = get_assets(dither=dither, xtalk=xtalk)
+    expected_assets_with_versions = {
+        f"{k.split('.')[0]}_{version}.{k.split('.')[1]}": v
+        for k, v in expected_assets.items()
+    }
+
     for key, value in metadata.inventory.items():
-        if (asset_def := expected_assets.get(key)) is not None:
+        if (
+            asset_def := expected_assets_with_versions.get(key.split("_", 5)[-1])
+        ) is not None:
             asset = asset_def.create_asset((value))
             item.add_asset(key, asset)
+
+    # SAR extension
+    sar = SarExtension.ext(item, add_if_missing=True)
+    fill_sar_properties(sar, h5_data)
+
+    # SAT extension
+    sat = SatExtension.ext(item, add_if_missing=True)
+    fill_sat_properties(sat, h5_data)
 
     return item

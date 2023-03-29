@@ -5,8 +5,7 @@ from pystac import Extent, Link, Provider
 from pystac import ProviderRole as PR
 from pystac import SpatialExtent, TemporalExtent
 from pystac.extensions import sar
-
-# from pystac.extensions.eo import Band
+from pystac.extensions.eo import Band
 from pystac.utils import str_to_datetime
 
 NISAR_SIM_COLLECTION_START: Optional[datetime] = str_to_datetime(
@@ -63,27 +62,19 @@ NISAR_SIM_SAT: Dict[str, Any] = {"absolute_orbit": [19069, 19049]}
 
 NISAR_SIM_SAR: Dict[str, Any] = {
     "instrument_mode": ["L"],
-    "frequency_band": ["A", "B"],  # ? sar.FrequencyBand.L
+    "frequency_band": [sar.FrequencyBand.L],  # ? "A" "B"
     "polarizations": [
         [
             sar.Polarization.HH,
-            sar.Polarization.HH,
         ],
         [
             sar.Polarization.HV,
-            sar.Polarization.HV,
         ],
         [
             sar.Polarization.VV,
-            sar.Polarization.VV,
         ],
         [
-            sar.Polarization.HH,
-            sar.Polarization.VV,
-        ],
-        [
-            sar.Polarization.HV,
-            sar.Polarization.VV,
+            sar.Polarization.VH,
         ],
     ],
     "product_type": ["RSLC"],  # not listed in SAR extension, is it just SLC?
@@ -98,22 +89,24 @@ NISAR_SIM_SAR: Dict[str, Any] = {
     "observation_direction": [sar.ObservationDirection.LEFT],
 }
 
-# Actual band files?
+NISAR_SIM_POLARIZATIONS = {
+    "slcHH": Band.create(
+        name="HH",
+        description="HH band: horizontal transmit and horizontal receive",
+    ),
+    "slcHV": Band.create(
+        name="HV",
+        description="HV band: horizontal transmit and vertical receive",
+    ),
+    "slcVH": Band.create(
+        name="VH",
+        description="VH band: vertical transmit and horizontal receive",
+    ),
+    "slcVV": Band.create(
+        name="VV",
+        description="VV band: vertical transmit and vertical receive",
+    ),
+}
 
-# NISAR_SIM_POLARIZATIONS = {
-# "HHHH"
-# "HVHV"
-# "VVVV"
-# "HHHV"
-# "HHVV"
-# "HVVV"
-# "HHHH"
-# "HVHV"
-# "VVVV"
-# "HHHV"
-# "HHVV"
-# "HVVV"
-# }
-
-FREQUENCIES = ["129", "138", "143"]
+NMODE = ["129", "138", "143"]  # center frequency, bandwidth, and polarization
 XTALK = ["X", "C"]
