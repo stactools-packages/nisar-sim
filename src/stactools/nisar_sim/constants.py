@@ -90,19 +90,19 @@ NISAR_SIM_SAR: Dict[str, Any] = {
 }
 
 NISAR_SIM_POLARIZATIONS = {
-    "slcHH": Band.create(
+    "HH": Band.create(
         name="HH",
         description="HH band: horizontal transmit and horizontal receive",
     ),
-    "slcHV": Band.create(
+    "HV": Band.create(
         name="HV",
         description="HV band: horizontal transmit and vertical receive",
     ),
-    "slcVH": Band.create(
+    "VH": Band.create(
         name="VH",
         description="VH band: vertical transmit and horizontal receive",
     ),
-    "slcVV": Band.create(
+    "VV": Band.create(
         name="VV",
         description="VV band: vertical transmit and vertical receive",
     ),

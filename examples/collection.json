@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "/workspaces/nisar-sim/examples/collection.json",
+      "href": "/Users/jjfrench/nisar-sim/examples/collection.json",
       "type": "application/json",
       "title": "Simulated NISAR"
     },
@@ -24,15 +24,14 @@
     },
     {
       "rel": "self",
-      "href": "/workspaces/nisar-sim/examples/collection.json",
+      "href": "/Users/jjfrench/nisar-sim/examples/collection.json",
       "type": "application/json"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
     "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
-    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/sat/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
   ],
   "item_assets": {
     "XX_129A.ann": {
@@ -3780,29 +3779,20 @@
     ],
     "sar:polarizations": [
       [
-        "HH",
         "HH"
       ],
       [
-        "HV",
         "HV"
       ],
       [
-        "VV",
         "VV"
       ],
       [
-        "HH",
-        "VV"
-      ],
-      [
-        "HV",
-        "VV"
+        "VH"
       ]
     ],
     "sar:frequency_band": [
-      "A",
-      "B"
+      "L"
     ],
     "sar:instrument_mode": [
       "L"
@@ -3814,10 +3804,6 @@
       1.275,
       1.243,
       1.263
-    ],
-    "sat:absolute_orbit": [
-      19069,
-      19049
     ]
   }
 }

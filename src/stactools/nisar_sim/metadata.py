@@ -6,7 +6,7 @@ from typing import Any, Dict, List, Optional, Tuple, TypeVar
 
 import h5py
 import pystac
-from pystac.extensions.sar import SarExtension
+from pystac.extensions.sar import Polarization, SarExtension
 from pystac.extensions.sat import SatExtension
 from pystac.utils import str_to_datetime
 from shapely.geometry import mapping
@@ -109,7 +109,7 @@ class AnnotatedMetadata:
 class Metadata:
     def __init__(self, href: str, id: str, h5_metadata: Any, ann_metadata: Any) -> None:
         self.href = href
-        self.versionless_id = id[: id.rfind("_")]
+        self.base_id = "_".join(id.split("_")[:-2])
         self.h5_metadata = h5_metadata
         self.ann_metadata = ann_metadata
 
@@ -174,13 +174,11 @@ class Metadata:
     @property
     def inventory(self) -> Dict[str, str]:
         files = {
-            k: v
-            for k, v in self.ann_metadata.metadata.items()
-            if self.versionless_id in v
+            k: v for k, v in self.ann_metadata.metadata.items() if self.base_id in v
         }
 
         if not files:
-            raise ValueError(
+            raise AnnotatedMetadataException(
                 "Cannot determine product files using annotated metadata "
                 f" at {self.ann_metadata.href}"
             )
@@ -195,30 +193,29 @@ def fill_sar_properties(
     Based on the sar Extension.py
     Args:
         sar_ext (SarExtension): The extension to be populated.
-        h5_data (Any): h5 file file parsed into an XmlElement
+        h5_data (Any): h5 file object
     """
-    # Properties depending on nmode/frequency
+    # Required
     sar_ext.frequency_band = c.NISAR_SIM_SAR["frequency_band"][0]
-    sar_ext.center_frequency = c.NISAR_SIM_SAR["center_frequency"]
+    sar_ext.product_type = c.NISAR_SIM_SAR["product_type"][0]
+    sar_ext.instrument_mode = c.NISAR_SIM_SAR["instrument_mode"][0]
+    sar_ext.polarizations = [
+        Polarization(x) for x in c.NISAR_SIM_POLARIZATIONS
+    ]  # Get polarizations from A/B Frequencies?
+
+    # Additional Properties
+    sar_ext.center_frequency = c.NISAR_SIM_SAR["center_frequency"][0]
     sar_ext.observation_direction = c.NISAR_SIM_SAR["observation_direction"][0]
 
+    # Find
     # Read properties
     # instrument_mode = manifest.find_text_or_throw(
     #     ".//ObservationMode", ProductMetadataError
     # )
     # if instrument_mode:
     #     sar_ext.instrument_mode = instrument_mode
-    # sar_ext.polarizations = [
-    #     Polarization(x)
-    #     for x in manifest.find_text_or_throw(
-    #         ".//Polarizations", ProductMetadataError
-    #     ).split(" ")
-    # ]
-    # sar_ext.product_type = c.NISAR_SIM_SAR["product_type"][0]
-
     # sar.looks_range = c.NISAR_SIM_SAR["looks_range"]
     # sar.looks_azimuth = c.NISAR_SIM_SAR["looks_azimuth"]
-    # sar.polarizations = c.NISAR_SIM_SAR["polarizations"]
     # sar.resolution_range = c.NISAR_SIM_SAR["resolution_range"]
     # sar.resolution_azimuth = c.NISAR_SIM_SAR["resolution_azimuth"]
     # sar.pixel_spacing_range = c.NISAR_SIM_SAR["pixel_spacing_range"]
@@ -229,15 +226,15 @@ def fill_sar_properties(
 def fill_sat_properties(
     sat_ext: SatExtension[T], h5_data: Any
 ) -> None:  # TODO: Type of h5py.File?
-    """Fills the properties for SAR.
-    Based on the sar Extension.py
+    """Fills the properties for SAT
+    Based on the sat Extension.py
     Args:
-        sar_ext (SarExtension): The extension to be populated.
-        manifest (XmlElement): manifest.safe file parsed into an XmlElement
+        sat_ext (SarExtension): The extension to be populated
+        h5_data (Any): h5 file object
     """
-    # Fixed properties
+
     absolute_orbit = h5_data["science"]["LSAR"]["identification"].get(
         "absoluteOrbitNumber"
     )
     if absolute_orbit:
-        sat_ext.absolute_orbit = absolute_orbit
+        sat_ext.absolute_orbit = int(absolute_orbit[()])  # stored as numpy.uint32

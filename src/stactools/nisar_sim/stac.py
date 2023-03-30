@@ -1,4 +1,3 @@
-# import json
 import logging
 import re
 
@@ -52,7 +51,7 @@ def create_collection() -> Collection:
             ItemAssetsExtension.get_schema_uri(),
             ProjectionExtension.get_schema_uri(),
             SarExtension.get_schema_uri(),
-            SatExtension.get_schema_uri(),
+            # SatExtension.get_schema_uri(),
         ],
         keywords=c.NISAR_SIM_KEYWORDS,
     )
@@ -75,8 +74,8 @@ def create_collection() -> Collection:
     # sar.pixel_spacing_azimuth = c.NISAR_SIM_SAR["pixel_spacing_azimuth"]
     # sar.looks_equivalent_number = c.NISAR_SIM_SAR["looks_equivalent_number"]
 
-    sat = SatExtension.summaries(collection, add_if_missing=True)
-    sat.absolute_orbit = c.NISAR_SIM_SAT["absolute_orbit"]
+    # sat = SatExtension.summaries(collection, add_if_missing=True)
+    # sat.absolute_orbit = c.NISAR_SIM_SAT["absolute_orbit"]
 
     assets = ItemAssetsExtension.ext(collection, add_if_missing=True)
     assets.item_assets = get_assets(collection=True)
@@ -132,18 +131,19 @@ def create_item(product_path: str, dither: str) -> Item:
     }
 
     for key, value in metadata.inventory.items():
+        base_id = len(metadata.base_id)  # lint work around
         if (
-            asset_def := expected_assets_with_versions.get(key.split("_", 5)[-1])
+            asset_def := expected_assets_with_versions.get(value[base_id:].lstrip("_"))
         ) is not None:
             asset = asset_def.create_asset((value))
             item.add_asset(key, asset)
 
     # SAR extension
     sar = SarExtension.ext(item, add_if_missing=True)
-    fill_sar_properties(sar, h5_data)
+    fill_sar_properties(sar, h5_data.metadata)
 
     # SAT extension
     sat = SatExtension.ext(item, add_if_missing=True)
-    fill_sat_properties(sat, h5_data)
+    fill_sat_properties(sat, h5_data.metadata)
 
     return item
