@@ -9,16 +9,16 @@
 - [Dataset homepage](http://example.com)
 - STAC extensions used:
   - [proj](https://github.com/stac-extensions/projection/)
-- Extra fields:
-  - `nisar-sim:custom`: A custom attribute
+  - [sar](https://github.com/stac-extensions/sar)
+  - [sat](https://github.com/stac-extensions/sat)
 - [Browse the example in human-readable form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/nisar-sim/main/examples/collection.json)
 
-A short description of the package and its usage.
+stactools package for use with the simulated NISAR products in the 129A nmode/frequency.
 
 ## STAC Examples
 
 - [Collection](examples/collection.json)
-- [Item](examples/item/item.json)
+- [Item](examples/winnip_31604_12061_004_120717_L090_CX_07/winnip_31604_12061_004_120717_L090_CX_07.json)
 
 ## Installation
 
@@ -31,7 +31,13 @@ pip install stactools-nisar-sim
 Description of the command line functions
 
 ```shell
-stac nisar-sim create-item source destination dither
+stac nisar-sim create-collection <destination/>
+
+stac nisar-sim create-item <source/> <destination/> <dither>
+
+stac nisar-sim create-item
+https://downloaduav.jpl.nasa.gov/Release2v/winnip_31604_12061_004_120717_L090_CX_07/
+examples/ X
 ```
 
 Use `stac nisar-sim --help` to see all subcommands and options.

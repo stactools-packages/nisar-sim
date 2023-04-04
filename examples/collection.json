@@ -6,7 +6,7 @@
   "links": [
     {
       "rel": "root",
-      "href": "/Users/jjfrench/nisar-sim/examples/collection.json",
+      "href": "./collection.json",
       "type": "application/json",
       "title": "Simulated NISAR"
     },
@@ -23,8 +23,8 @@
       "title": "NASA/JPL-Caltech Image Use Policy"
     },
     {
-      "rel": "self",
-      "href": "/Users/jjfrench/nisar-sim/examples/collection.json",
+      "rel": "item",
+      "href": "./winnip_31604_12061_004_120717_L090_CX_07/winnip_31604_12061_004_120717_L090_CX_07.json",
       "type": "application/json"
     }
   ],

@@ -5,16 +5,14 @@ def test_create_collection() -> None:
     # Write tests for each for the creation of a STAC Collection
     # Create the STAC Collection...
     collection = stac.create_collection()
-    collection.set_self_href("./examples/collection.json")
+    collection.set_self_href("")
 
     # Check that it has some required attributes
     assert collection.id == "nisar-sim"
     # self.assertEqual(collection.other_attr...
 
     # Validate
-    # collection.validate()
-
-    collection.save_object()
+    collection.validate()
 
 
 def test_create_item() -> None:
@@ -29,8 +27,4 @@ def test_create_item() -> None:
     # self.assertEqual(item.other_attr...
 
     # Validate
-    # item.validate()
-
-    item.set_self_href("./examples/item.json")
-
-    item.save_object()
+    item.validate()
