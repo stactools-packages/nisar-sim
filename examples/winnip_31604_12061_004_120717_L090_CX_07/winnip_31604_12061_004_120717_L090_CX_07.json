@@ -4,17 +4,6 @@
   "id": "winnip_31604_12061_004_120717_L090_CX_07",
   "properties": {
     "proj:epsg": 4326,
-    "sar:frequency_band": "L",
-    "sar:product_type": "RSLC",
-    "sar:instrument_mode": "L",
-    "sar:polarizations": [
-      "HH",
-      "HV",
-      "VH",
-      "VV"
-    ],
-    "sar:center_frequency": 1.243,
-    "sar:observation_direction": "left",
     "sat:absolute_orbit": 12061,
     "datetime": "2012-07-17T14:39:45.732157Z"
   },
@@ -68,7 +57,7 @@
   "assets": {
     "hgt": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.hgt",
-      "type": "",
+      "type": "application/octet-stream",
       "title": "CX_129A HGT File",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
@@ -77,7 +66,7 @@
     },
     "inc": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.inc",
-      "type": "",
+      "type": "application/octet-stream",
       "title": "CX_129A Incidence Angle File",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
@@ -86,7 +75,7 @@
     },
     "slope": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.slope",
-      "type": "",
+      "type": "application/octet-stream",
       "title": "CX_129A Terrain Slope File",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
@@ -95,7 +84,7 @@
     },
     "rtc": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.rtc",
-      "type": "",
+      "type": "application/octet-stream",
       "title": "CX_129A Radiometric Terrain Correction Factor",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
@@ -203,7 +192,7 @@
     },
     "grdHHHH": {
       "href": "winnip_31604_12061_004_120717_L090HHHH_CX_129A_07.grd",
-      "type": "",
+      "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct HHHH",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
@@ -212,7 +201,7 @@
     },
     "grdHVHV": {
       "href": "winnip_31604_12061_004_120717_L090HVHV_CX_129A_07.grd",
-      "type": "",
+      "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct HVHV",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
@@ -221,7 +210,7 @@
     },
     "grdVVVV": {
       "href": "winnip_31604_12061_004_120717_L090VVVV_CX_129A_07.grd",
-      "type": "",
+      "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct VVVV",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
@@ -230,7 +219,7 @@
     },
     "grdHHHV": {
       "href": "winnip_31604_12061_004_120717_L090HHHV_CX_129A_07.grd",
-      "type": "",
+      "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct HHHV",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
@@ -239,7 +228,7 @@
     },
     "grdHHVV": {
       "href": "winnip_31604_12061_004_120717_L090HHVV_CX_129A_07.grd",
-      "type": "",
+      "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct HHVV",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
@@ -248,7 +237,7 @@
     },
     "grdHVVV": {
       "href": "winnip_31604_12061_004_120717_L090HVVV_CX_129A_07.grd",
-      "type": "",
+      "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct HVVV",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
@@ -263,6 +252,24 @@
       "role": [
         "overlay"
       ]
+    },
+    "ann_A": {
+      "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.ann",
+      "type": "text/plain",
+      "title": "CX_129A Annotation File",
+      "description": "No Dither: 129A Annotation File",
+      "role": [
+        "metadata"
+      ]
+    },
+    "ann_B": {
+      "href": "winnip_31604_12061_004_120717_L090_CX_129B_07.ann",
+      "type": "text/plain",
+      "title": "CX_129B Annotation File",
+      "description": "No Dither: 129B Annotation File",
+      "role": [
+        "metadata"
+      ]
     }
   },
   "bbox": [
@@ -273,7 +280,6 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
-    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
     "https://stac-extensions.github.io/sat/v1.0.0/schema.json"
   ],
   "collection": "nisar-sim"

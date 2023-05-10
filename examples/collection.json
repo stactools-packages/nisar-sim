@@ -31,7 +31,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
     "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
-    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json"
   ],
   "item_assets": {
     "XX_129A.ann": {
@@ -124,7 +124,7 @@
     },
     "HHHH_XX_129A.grd": {
       "title": "XX_129A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -132,7 +132,7 @@
     },
     "HVHV_XX_129A.grd": {
       "title": "XX_129A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -140,7 +140,7 @@
     },
     "VVVV_XX_129A.grd": {
       "title": "XX_129A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -148,7 +148,7 @@
     },
     "HHHV_XX_129A.grd": {
       "title": "XX_129A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -156,7 +156,7 @@
     },
     "HHVV_XX_129A.grd": {
       "title": "XX_129A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -164,7 +164,7 @@
     },
     "HVVV_XX_129A.grd": {
       "title": "XX_129A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -172,7 +172,7 @@
     },
     "XX_129A.hgt": {
       "title": "XX_129A HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -180,7 +180,7 @@
     },
     "XX_129A.inc": {
       "title": "XX_129A Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -188,7 +188,7 @@
     },
     "XX_129A.flat.inc": {
       "title": "XX_129A Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -196,7 +196,7 @@
     },
     "XX_129A.slope": {
       "title": "XX_129A Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -204,7 +204,7 @@
     },
     "XX_129A.rtc": {
       "title": "XX_129A Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -443,7 +443,7 @@
     },
     "HHHH_XX_129B.grd": {
       "title": "XX_129B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -451,7 +451,7 @@
     },
     "HVHV_XX_129B.grd": {
       "title": "XX_129B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -459,7 +459,7 @@
     },
     "VVVV_XX_129B.grd": {
       "title": "XX_129B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -467,7 +467,7 @@
     },
     "HHHV_XX_129B.grd": {
       "title": "XX_129B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -475,7 +475,7 @@
     },
     "HHVV_XX_129B.grd": {
       "title": "XX_129B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -483,7 +483,7 @@
     },
     "HVVV_XX_129B.grd": {
       "title": "XX_129B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -491,7 +491,7 @@
     },
     "XX_129B.hgt": {
       "title": "XX_129B HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -499,7 +499,7 @@
     },
     "XX_129B.inc": {
       "title": "XX_129B Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -507,7 +507,7 @@
     },
     "XX_129B.flat.inc": {
       "title": "XX_129B Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -515,7 +515,7 @@
     },
     "XX_129B.slope": {
       "title": "XX_129B Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -523,7 +523,7 @@
     },
     "XX_129B.rtc": {
       "title": "XX_129B Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -738,7 +738,7 @@
     },
     "HHHH_XX_138A.grd": {
       "title": "XX_138A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -746,7 +746,7 @@
     },
     "HVHV_XX_138A.grd": {
       "title": "XX_138A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -754,7 +754,7 @@
     },
     "VVVV_XX_138A.grd": {
       "title": "XX_138A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -762,7 +762,7 @@
     },
     "HHHV_XX_138A.grd": {
       "title": "XX_138A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -770,7 +770,7 @@
     },
     "HHVV_XX_138A.grd": {
       "title": "XX_138A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -778,7 +778,7 @@
     },
     "HVVV_XX_138A.grd": {
       "title": "XX_138A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -786,7 +786,7 @@
     },
     "XX_138A.hgt": {
       "title": "XX_138A HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -794,7 +794,7 @@
     },
     "XX_138A.inc": {
       "title": "XX_138A Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -802,7 +802,7 @@
     },
     "XX_138A.flat.inc": {
       "title": "XX_138A Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -810,7 +810,7 @@
     },
     "XX_138A.slope": {
       "title": "XX_138A Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -818,7 +818,7 @@
     },
     "XX_138A.rtc": {
       "title": "XX_138A Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -1057,7 +1057,7 @@
     },
     "HHHH_XX_138B.grd": {
       "title": "XX_138B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -1065,7 +1065,7 @@
     },
     "HVHV_XX_138B.grd": {
       "title": "XX_138B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -1073,7 +1073,7 @@
     },
     "VVVV_XX_138B.grd": {
       "title": "XX_138B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -1081,7 +1081,7 @@
     },
     "HHHV_XX_138B.grd": {
       "title": "XX_138B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -1089,7 +1089,7 @@
     },
     "HHVV_XX_138B.grd": {
       "title": "XX_138B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -1097,7 +1097,7 @@
     },
     "HVVV_XX_138B.grd": {
       "title": "XX_138B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -1105,7 +1105,7 @@
     },
     "XX_138B.hgt": {
       "title": "XX_138B HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -1113,7 +1113,7 @@
     },
     "XX_138B.inc": {
       "title": "XX_138B Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -1121,7 +1121,7 @@
     },
     "XX_138B.flat.inc": {
       "title": "XX_138B Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -1129,7 +1129,7 @@
     },
     "XX_138B.slope": {
       "title": "XX_138B Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -1137,7 +1137,7 @@
     },
     "XX_138B.rtc": {
       "title": "XX_138B Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -1352,7 +1352,7 @@
     },
     "HHHH_XX_143A.grd": {
       "title": "XX_143A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -1360,7 +1360,7 @@
     },
     "HVHV_XX_143A.grd": {
       "title": "XX_143A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -1368,7 +1368,7 @@
     },
     "VVVV_XX_143A.grd": {
       "title": "XX_143A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -1376,7 +1376,7 @@
     },
     "HHHV_XX_143A.grd": {
       "title": "XX_143A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -1384,7 +1384,7 @@
     },
     "HHVV_XX_143A.grd": {
       "title": "XX_143A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -1392,7 +1392,7 @@
     },
     "HVVV_XX_143A.grd": {
       "title": "XX_143A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -1400,7 +1400,7 @@
     },
     "XX_143A.hgt": {
       "title": "XX_143A HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -1408,7 +1408,7 @@
     },
     "XX_143A.inc": {
       "title": "XX_143A Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -1416,7 +1416,7 @@
     },
     "XX_143A.flat.inc": {
       "title": "XX_143A Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -1424,7 +1424,7 @@
     },
     "XX_143A.slope": {
       "title": "XX_143A Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -1432,7 +1432,7 @@
     },
     "XX_143A.rtc": {
       "title": "XX_143A Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -1671,7 +1671,7 @@
     },
     "HHHH_XX_143B.grd": {
       "title": "XX_143B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -1679,7 +1679,7 @@
     },
     "HVHV_XX_143B.grd": {
       "title": "XX_143B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -1687,7 +1687,7 @@
     },
     "VVVV_XX_143B.grd": {
       "title": "XX_143B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -1695,7 +1695,7 @@
     },
     "HHHV_XX_143B.grd": {
       "title": "XX_143B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -1703,7 +1703,7 @@
     },
     "HHVV_XX_143B.grd": {
       "title": "XX_143B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -1711,7 +1711,7 @@
     },
     "HVVV_XX_143B.grd": {
       "title": "XX_143B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -1719,7 +1719,7 @@
     },
     "XX_143B.hgt": {
       "title": "XX_143B HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -1727,7 +1727,7 @@
     },
     "XX_143B.inc": {
       "title": "XX_143B Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -1735,7 +1735,7 @@
     },
     "XX_143B.flat.inc": {
       "title": "XX_143B Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -1743,7 +1743,7 @@
     },
     "XX_143B.slope": {
       "title": "XX_143B Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -1751,7 +1751,7 @@
     },
     "XX_143B.rtc": {
       "title": "XX_143B Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -1966,7 +1966,7 @@
     },
     "HHHH_CX_129A.grd": {
       "title": "CX_129A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -1974,7 +1974,7 @@
     },
     "HVHV_CX_129A.grd": {
       "title": "CX_129A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -1982,7 +1982,7 @@
     },
     "VVVV_CX_129A.grd": {
       "title": "CX_129A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -1990,7 +1990,7 @@
     },
     "HHHV_CX_129A.grd": {
       "title": "CX_129A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -1998,7 +1998,7 @@
     },
     "HHVV_CX_129A.grd": {
       "title": "CX_129A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -2006,7 +2006,7 @@
     },
     "HVVV_CX_129A.grd": {
       "title": "CX_129A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -2014,7 +2014,7 @@
     },
     "CX_129A.hgt": {
       "title": "CX_129A HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -2022,7 +2022,7 @@
     },
     "CX_129A.inc": {
       "title": "CX_129A Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -2030,7 +2030,7 @@
     },
     "CX_129A.flat.inc": {
       "title": "CX_129A Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -2038,7 +2038,7 @@
     },
     "CX_129A.slope": {
       "title": "CX_129A Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -2046,7 +2046,7 @@
     },
     "CX_129A.rtc": {
       "title": "CX_129A Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -2285,7 +2285,7 @@
     },
     "HHHH_CX_129B.grd": {
       "title": "CX_129B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -2293,7 +2293,7 @@
     },
     "HVHV_CX_129B.grd": {
       "title": "CX_129B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -2301,7 +2301,7 @@
     },
     "VVVV_CX_129B.grd": {
       "title": "CX_129B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -2309,7 +2309,7 @@
     },
     "HHHV_CX_129B.grd": {
       "title": "CX_129B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -2317,7 +2317,7 @@
     },
     "HHVV_CX_129B.grd": {
       "title": "CX_129B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -2325,7 +2325,7 @@
     },
     "HVVV_CX_129B.grd": {
       "title": "CX_129B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -2333,7 +2333,7 @@
     },
     "CX_129B.hgt": {
       "title": "CX_129B HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -2341,7 +2341,7 @@
     },
     "CX_129B.inc": {
       "title": "CX_129B Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -2349,7 +2349,7 @@
     },
     "CX_129B.flat.inc": {
       "title": "CX_129B Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -2357,7 +2357,7 @@
     },
     "CX_129B.slope": {
       "title": "CX_129B Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -2365,7 +2365,7 @@
     },
     "CX_129B.rtc": {
       "title": "CX_129B Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -2580,7 +2580,7 @@
     },
     "HHHH_CX_138A.grd": {
       "title": "CX_138A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -2588,7 +2588,7 @@
     },
     "HVHV_CX_138A.grd": {
       "title": "CX_138A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -2596,7 +2596,7 @@
     },
     "VVVV_CX_138A.grd": {
       "title": "CX_138A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -2604,7 +2604,7 @@
     },
     "HHHV_CX_138A.grd": {
       "title": "CX_138A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -2612,7 +2612,7 @@
     },
     "HHVV_CX_138A.grd": {
       "title": "CX_138A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -2620,7 +2620,7 @@
     },
     "HVVV_CX_138A.grd": {
       "title": "CX_138A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -2628,7 +2628,7 @@
     },
     "CX_138A.hgt": {
       "title": "CX_138A HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -2636,7 +2636,7 @@
     },
     "CX_138A.inc": {
       "title": "CX_138A Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -2644,7 +2644,7 @@
     },
     "CX_138A.flat.inc": {
       "title": "CX_138A Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -2652,7 +2652,7 @@
     },
     "CX_138A.slope": {
       "title": "CX_138A Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -2660,7 +2660,7 @@
     },
     "CX_138A.rtc": {
       "title": "CX_138A Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -2899,7 +2899,7 @@
     },
     "HHHH_CX_138B.grd": {
       "title": "CX_138B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -2907,7 +2907,7 @@
     },
     "HVHV_CX_138B.grd": {
       "title": "CX_138B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -2915,7 +2915,7 @@
     },
     "VVVV_CX_138B.grd": {
       "title": "CX_138B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -2923,7 +2923,7 @@
     },
     "HHHV_CX_138B.grd": {
       "title": "CX_138B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -2931,7 +2931,7 @@
     },
     "HHVV_CX_138B.grd": {
       "title": "CX_138B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -2939,7 +2939,7 @@
     },
     "HVVV_CX_138B.grd": {
       "title": "CX_138B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -2947,7 +2947,7 @@
     },
     "CX_138B.hgt": {
       "title": "CX_138B HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -2955,7 +2955,7 @@
     },
     "CX_138B.inc": {
       "title": "CX_138B Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -2963,7 +2963,7 @@
     },
     "CX_138B.flat.inc": {
       "title": "CX_138B Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -2971,7 +2971,7 @@
     },
     "CX_138B.slope": {
       "title": "CX_138B Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -2979,7 +2979,7 @@
     },
     "CX_138B.rtc": {
       "title": "CX_138B Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -3194,7 +3194,7 @@
     },
     "HHHH_CX_143A.grd": {
       "title": "CX_143A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -3202,7 +3202,7 @@
     },
     "HVHV_CX_143A.grd": {
       "title": "CX_143A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -3210,7 +3210,7 @@
     },
     "VVVV_CX_143A.grd": {
       "title": "CX_143A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -3218,7 +3218,7 @@
     },
     "HHHV_CX_143A.grd": {
       "title": "CX_143A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -3226,7 +3226,7 @@
     },
     "HHVV_CX_143A.grd": {
       "title": "CX_143A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -3234,7 +3234,7 @@
     },
     "HVVV_CX_143A.grd": {
       "title": "CX_143A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -3242,7 +3242,7 @@
     },
     "CX_143A.hgt": {
       "title": "CX_143A HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -3250,7 +3250,7 @@
     },
     "CX_143A.inc": {
       "title": "CX_143A Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -3258,7 +3258,7 @@
     },
     "CX_143A.flat.inc": {
       "title": "CX_143A Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -3266,7 +3266,7 @@
     },
     "CX_143A.slope": {
       "title": "CX_143A Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -3274,7 +3274,7 @@
     },
     "CX_143A.rtc": {
       "title": "CX_143A Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -3513,7 +3513,7 @@
     },
     "HHHH_CX_143B.grd": {
       "title": "CX_143B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -3521,7 +3521,7 @@
     },
     "HVHV_CX_143B.grd": {
       "title": "CX_143B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -3529,7 +3529,7 @@
     },
     "VVVV_CX_143B.grd": {
       "title": "CX_143B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -3537,7 +3537,7 @@
     },
     "HHHV_CX_143B.grd": {
       "title": "CX_143B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -3545,7 +3545,7 @@
     },
     "HHVV_CX_143B.grd": {
       "title": "CX_143B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -3553,7 +3553,7 @@
     },
     "HVVV_CX_143B.grd": {
       "title": "CX_143B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "No Dither: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -3561,7 +3561,7 @@
     },
     "CX_143B.hgt": {
       "title": "CX_143B HGT File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Digital elevation model (DEM) used during processing and ground projection",
       "role": [
         "data"
@@ -3569,7 +3569,7 @@
     },
     "CX_143B.inc": {
       "title": "CX_143B Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
       "role": [
         "data"
@@ -3577,7 +3577,7 @@
     },
     "CX_143B.flat.inc": {
       "title": "CX_143B Flat Earth Incidence Angle File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
       "role": [
         "data"
@@ -3585,7 +3585,7 @@
     },
     "CX_143B.slope": {
       "title": "CX_143B Terrain Slope File",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
       "role": [
         "data"
@@ -3593,7 +3593,7 @@
     },
     "CX_143B.rtc": {
       "title": "CX_143B Radiometric Terrain Correction Factor",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Radiometric terrain correction factor that can be applied to grd files",
       "role": [
         "data"
@@ -3767,43 +3767,6 @@
   "summaries": {
     "platform": [
       "NISAR"
-    ],
-    "sar:looks_range": [
-      1
-    ],
-    "sar:product_type": [
-      "RSLC"
-    ],
-    "sar:looks_azimuth": [
-      2
-    ],
-    "sar:polarizations": [
-      [
-        "HH"
-      ],
-      [
-        "HV"
-      ],
-      [
-        "VV"
-      ],
-      [
-        "VH"
-      ]
-    ],
-    "sar:frequency_band": [
-      "L"
-    ],
-    "sar:instrument_mode": [
-      "L"
-    ],
-    "sar:center_frequency": [
-      1.243,
-      1.27,
-      1.253,
-      1.275,
-      1.243,
-      1.263
     ]
   }
 }
