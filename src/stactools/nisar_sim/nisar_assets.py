@@ -101,7 +101,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"HHHH_{xtalk}X_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} Ground Range Projected File for Crossproduct HHHH",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"No Dither: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HHHH"
@@ -112,7 +112,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"HVHV_{xtalk}X_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} Ground Range Projected File for Crossproduct HVHV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"No Dither: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HVHV"
@@ -123,7 +123,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"VVVV_{xtalk}X_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} Ground Range Projected File for Crossproduct VVVV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"No Dither: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct VVVV"
@@ -134,7 +134,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"HHHV_{xtalk}X_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} Ground Range Projected File for Crossproduct HHHV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"No Dither: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HHHV"
@@ -145,7 +145,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"HHVV_{xtalk}X_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} Ground Range Projected File for Crossproduct HHVV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"No Dither: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HHVV"
@@ -156,7 +156,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"HVVV_{xtalk}X_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} Ground Range Projected File for Crossproduct HVVV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"No Dither: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HVVV"
@@ -167,7 +167,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"{xtalk}X_{frequency}.hgt": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} HGT File",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     "Digital elevation model (DEM) used during processing and ground projection"
                 ),
@@ -177,7 +177,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"{xtalk}X_{frequency}.inc": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} Incidence Angle File",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     "Ground range local incidence angle, the angle between"
                     " the surface normal and the radar line of sight."
@@ -188,7 +188,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"{xtalk}X_{frequency}.flat.inc": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} Flat Earth Incidence Angle File",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     "Ground range local incidence angle, the angle between"
                     " the surface normal and the radar line of sight"
@@ -199,7 +199,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"{xtalk}X_{frequency}.slope": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} Terrain Slope File",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     "Ground range terrain slope containing the derivatives of the DEM in the East"
                     " and North direction, used to compute the local incidence angle"
@@ -210,7 +210,7 @@ def NISAR_SIM_ASSETS_NO_DITHER(
         f"{xtalk}X_{frequency}.rtc": AssetDefinition(
             {
                 "title": f"{xtalk}X_{frequency} Radiometric Terrain Correction Factor",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     "Radiometric terrain correction factor that can be applied to grd files"
                 ),
@@ -423,9 +423,7 @@ def get_assets(
     collection: Optional[bool] = None,
     dither: Optional[str] = None,
     xtalk: Optional[str] = None,
-    frequency: Optional[
-        str
-    ] = None,  # TODO: Should we create stac items for specific frequencies?
+    frequency: Optional[str] = None,
 ) -> Dict[str, AssetDefinition]:
     all_frequencies = [f"{freq}{suffix}" for freq in c.NMODE for suffix in ["A", "B"]]
     assets = {}
