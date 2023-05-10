@@ -18,7 +18,9 @@ shutil.rmtree(examples, ignore_errors=True)
 stac_collection = stac.create_collection()
 
 item1 = stac.create_item(
-    str(nisar_sim_data / "winnip_31604_12061_004_120717_L090_CX_07/"), dither="X"
+    str(nisar_sim_data / "winnip_31604_12061_004_120717_L090_CX_07/"),
+    dither="X",
+    nmode="129",
 )
 
 stac_collection.add_items([item1])

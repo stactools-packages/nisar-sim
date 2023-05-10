@@ -41,8 +41,9 @@ class CommandsTest(CliTestCase):
             inpath = "tests/data-files/winnip_31604_12061_004_120717_L090_CX_07"
             destination = os.path.join(tmp_dir, "item.json")
             dither = "X"
+            nmode = "129"
             result = self.run_command(
-                f"nisarsim create-item {inpath} {destination} {dither}"
+                f"nisarsim create-item {inpath} {destination} --dither {dither} --nmode {nmode}"
             )
             assert result.exit_code == 0, "\n{}".format(result.output)
 

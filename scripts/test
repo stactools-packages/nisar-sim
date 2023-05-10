@@ -24,7 +24,8 @@ if [ "${BASH_SOURCE[0]}" = "${0}" ]; then
             scripts/* \
             *.py ./**/*.py \
             *.md
-
+        # -s to display output to console
+        # -rP for test info on passing/failing tests
         pytest --cov=stactools.nisar_sim tests -s -rP
         coverage xml
     fi

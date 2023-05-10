@@ -19,7 +19,9 @@ def test_create_item() -> None:
     # Write tests for each for the creation of STAC Items
     # Create the STAC Item...
     item = stac.create_item(
-        "tests/data-files/winnip_31604_12061_004_120717_L090_CX_07", "X"
+        "tests/data-files/winnip_31604_12061_004_120717_L090_CX_07",
+        dither="X",
+        nmode="129",
     )
 
     # Check that it has some required attributes
