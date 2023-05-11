@@ -5,7 +5,7 @@
 - Name: nisar-sim
 - Package: `stactools.nisar_sim`
 - [stactools-nisar-sim on PyPI](https://pypi.org/project/stactools-nisar-sim/)
-- Owner: @wildintellect
+- Owner: @jjfrench @wildintellect
 - [Dataset homepage](https://uavsar.jpl.nasa.gov/science/documents/nisar-sample-products.html)
 - STAC extensions used:
   - [proj](https://github.com/stac-extensions/projection/)
@@ -45,6 +45,8 @@ stac nisarsim create-collection <destination/>
 - "129"
 - "138"
 - "143"
+
+Read more about the _Dither_ and _Nmode_ namings [here](https://uavsar.jpl.nasa.gov/science/documents/nisar-sample-products.html#Product%20Description:~:text=about%20dithered%20products.-,Naming%20Convention,-The%20simulated%20NISAR).
 
 ```shell
 stac nisarsim create-item <source/> <destination/> --dither <dither> --nmode <nmode>
