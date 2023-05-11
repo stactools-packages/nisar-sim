@@ -236,7 +236,7 @@
     },
     "HHHH_XG_129A.grd": {
       "title": "XG_129A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -244,7 +244,7 @@
     },
     "HVHV_XG_129A.grd": {
       "title": "XG_129A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -252,7 +252,7 @@
     },
     "VVVV_XG_129A.grd": {
       "title": "XG_129A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -260,7 +260,7 @@
     },
     "HHHV_XG_129A.grd": {
       "title": "XG_129A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -268,7 +268,7 @@
     },
     "HHVV_XG_129A.grd": {
       "title": "XG_129A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -276,7 +276,7 @@
     },
     "HVVV_XG_129A.grd": {
       "title": "XG_129A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -300,6 +300,7 @@
     },
     "HHHH_XD_129A.grd": {
       "title": "XD_129A Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -307,7 +308,7 @@
     },
     "HVHV_XD_129A.grd": {
       "title": "XD_129A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -315,7 +316,7 @@
     },
     "VVVV_XD_129A.grd": {
       "title": "XD_129A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -323,7 +324,7 @@
     },
     "HHHV_XD_129A.grd": {
       "title": "XD_129A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -331,7 +332,7 @@
     },
     "HHVV_XD_129A.grd": {
       "title": "XD_129A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -339,7 +340,7 @@
     },
     "HVVV_XD_129A.grd": {
       "title": "XD_129A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -547,7 +548,7 @@
     },
     "HHHH_XG_129B.grd": {
       "title": "XG_129B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -555,7 +556,7 @@
     },
     "HVHV_XG_129B.grd": {
       "title": "XG_129B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -563,7 +564,7 @@
     },
     "VVVV_XG_129B.grd": {
       "title": "XG_129B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -571,7 +572,7 @@
     },
     "HHHV_XG_129B.grd": {
       "title": "XG_129B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -579,7 +580,7 @@
     },
     "HHVV_XG_129B.grd": {
       "title": "XG_129B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -587,7 +588,7 @@
     },
     "HVVV_XG_129B.grd": {
       "title": "XG_129B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -603,6 +604,7 @@
     },
     "HHHH_XD_129B.grd": {
       "title": "XD_129B Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -610,7 +612,7 @@
     },
     "HVHV_XD_129B.grd": {
       "title": "XD_129B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -618,7 +620,7 @@
     },
     "VVVV_XD_129B.grd": {
       "title": "XD_129B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -626,7 +628,7 @@
     },
     "HHHV_XD_129B.grd": {
       "title": "XD_129B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -634,7 +636,7 @@
     },
     "HHVV_XD_129B.grd": {
       "title": "XD_129B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -642,7 +644,7 @@
     },
     "HVVV_XD_129B.grd": {
       "title": "XD_129B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -850,7 +852,7 @@
     },
     "HHHH_XG_138A.grd": {
       "title": "XG_138A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -858,7 +860,7 @@
     },
     "HVHV_XG_138A.grd": {
       "title": "XG_138A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -866,7 +868,7 @@
     },
     "VVVV_XG_138A.grd": {
       "title": "XG_138A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -874,7 +876,7 @@
     },
     "HHHV_XG_138A.grd": {
       "title": "XG_138A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -882,7 +884,7 @@
     },
     "HHVV_XG_138A.grd": {
       "title": "XG_138A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -890,7 +892,7 @@
     },
     "HVVV_XG_138A.grd": {
       "title": "XG_138A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -914,6 +916,7 @@
     },
     "HHHH_XD_138A.grd": {
       "title": "XD_138A Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -921,7 +924,7 @@
     },
     "HVHV_XD_138A.grd": {
       "title": "XD_138A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -929,7 +932,7 @@
     },
     "VVVV_XD_138A.grd": {
       "title": "XD_138A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -937,7 +940,7 @@
     },
     "HHHV_XD_138A.grd": {
       "title": "XD_138A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -945,7 +948,7 @@
     },
     "HHVV_XD_138A.grd": {
       "title": "XD_138A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -953,7 +956,7 @@
     },
     "HVVV_XD_138A.grd": {
       "title": "XD_138A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -1161,7 +1164,7 @@
     },
     "HHHH_XG_138B.grd": {
       "title": "XG_138B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -1169,7 +1172,7 @@
     },
     "HVHV_XG_138B.grd": {
       "title": "XG_138B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -1177,7 +1180,7 @@
     },
     "VVVV_XG_138B.grd": {
       "title": "XG_138B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -1185,7 +1188,7 @@
     },
     "HHHV_XG_138B.grd": {
       "title": "XG_138B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -1193,7 +1196,7 @@
     },
     "HHVV_XG_138B.grd": {
       "title": "XG_138B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -1201,7 +1204,7 @@
     },
     "HVVV_XG_138B.grd": {
       "title": "XG_138B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -1217,6 +1220,7 @@
     },
     "HHHH_XD_138B.grd": {
       "title": "XD_138B Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -1224,7 +1228,7 @@
     },
     "HVHV_XD_138B.grd": {
       "title": "XD_138B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -1232,7 +1236,7 @@
     },
     "VVVV_XD_138B.grd": {
       "title": "XD_138B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -1240,7 +1244,7 @@
     },
     "HHHV_XD_138B.grd": {
       "title": "XD_138B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -1248,7 +1252,7 @@
     },
     "HHVV_XD_138B.grd": {
       "title": "XD_138B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -1256,7 +1260,7 @@
     },
     "HVVV_XD_138B.grd": {
       "title": "XD_138B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -1464,7 +1468,7 @@
     },
     "HHHH_XG_143A.grd": {
       "title": "XG_143A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -1472,7 +1476,7 @@
     },
     "HVHV_XG_143A.grd": {
       "title": "XG_143A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -1480,7 +1484,7 @@
     },
     "VVVV_XG_143A.grd": {
       "title": "XG_143A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -1488,7 +1492,7 @@
     },
     "HHHV_XG_143A.grd": {
       "title": "XG_143A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -1496,7 +1500,7 @@
     },
     "HHVV_XG_143A.grd": {
       "title": "XG_143A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -1504,7 +1508,7 @@
     },
     "HVVV_XG_143A.grd": {
       "title": "XG_143A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -1528,6 +1532,7 @@
     },
     "HHHH_XD_143A.grd": {
       "title": "XD_143A Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -1535,7 +1540,7 @@
     },
     "HVHV_XD_143A.grd": {
       "title": "XD_143A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -1543,7 +1548,7 @@
     },
     "VVVV_XD_143A.grd": {
       "title": "XD_143A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -1551,7 +1556,7 @@
     },
     "HHHV_XD_143A.grd": {
       "title": "XD_143A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -1559,7 +1564,7 @@
     },
     "HHVV_XD_143A.grd": {
       "title": "XD_143A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -1567,7 +1572,7 @@
     },
     "HVVV_XD_143A.grd": {
       "title": "XD_143A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -1775,7 +1780,7 @@
     },
     "HHHH_XG_143B.grd": {
       "title": "XG_143B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -1783,7 +1788,7 @@
     },
     "HVHV_XG_143B.grd": {
       "title": "XG_143B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -1791,7 +1796,7 @@
     },
     "VVVV_XG_143B.grd": {
       "title": "XG_143B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -1799,7 +1804,7 @@
     },
     "HHHV_XG_143B.grd": {
       "title": "XG_143B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -1807,7 +1812,7 @@
     },
     "HHVV_XG_143B.grd": {
       "title": "XG_143B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -1815,7 +1820,7 @@
     },
     "HVVV_XG_143B.grd": {
       "title": "XG_143B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -1831,6 +1836,7 @@
     },
     "HHHH_XD_143B.grd": {
       "title": "XD_143B Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -1838,7 +1844,7 @@
     },
     "HVHV_XD_143B.grd": {
       "title": "XD_143B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -1846,7 +1852,7 @@
     },
     "VVVV_XD_143B.grd": {
       "title": "XD_143B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -1854,7 +1860,7 @@
     },
     "HHHV_XD_143B.grd": {
       "title": "XD_143B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -1862,7 +1868,7 @@
     },
     "HHVV_XD_143B.grd": {
       "title": "XD_143B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -1870,7 +1876,7 @@
     },
     "HVVV_XD_143B.grd": {
       "title": "XD_143B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -2078,7 +2084,7 @@
     },
     "HHHH_CG_129A.grd": {
       "title": "CG_129A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -2086,7 +2092,7 @@
     },
     "HVHV_CG_129A.grd": {
       "title": "CG_129A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -2094,7 +2100,7 @@
     },
     "VVVV_CG_129A.grd": {
       "title": "CG_129A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -2102,7 +2108,7 @@
     },
     "HHHV_CG_129A.grd": {
       "title": "CG_129A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -2110,7 +2116,7 @@
     },
     "HHVV_CG_129A.grd": {
       "title": "CG_129A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -2118,7 +2124,7 @@
     },
     "HVVV_CG_129A.grd": {
       "title": "CG_129A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -2142,6 +2148,7 @@
     },
     "HHHH_CD_129A.grd": {
       "title": "CD_129A Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -2149,7 +2156,7 @@
     },
     "HVHV_CD_129A.grd": {
       "title": "CD_129A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -2157,7 +2164,7 @@
     },
     "VVVV_CD_129A.grd": {
       "title": "CD_129A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -2165,7 +2172,7 @@
     },
     "HHHV_CD_129A.grd": {
       "title": "CD_129A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -2173,7 +2180,7 @@
     },
     "HHVV_CD_129A.grd": {
       "title": "CD_129A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -2181,7 +2188,7 @@
     },
     "HVVV_CD_129A.grd": {
       "title": "CD_129A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -2389,7 +2396,7 @@
     },
     "HHHH_CG_129B.grd": {
       "title": "CG_129B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -2397,7 +2404,7 @@
     },
     "HVHV_CG_129B.grd": {
       "title": "CG_129B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -2405,7 +2412,7 @@
     },
     "VVVV_CG_129B.grd": {
       "title": "CG_129B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -2413,7 +2420,7 @@
     },
     "HHHV_CG_129B.grd": {
       "title": "CG_129B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -2421,7 +2428,7 @@
     },
     "HHVV_CG_129B.grd": {
       "title": "CG_129B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -2429,7 +2436,7 @@
     },
     "HVVV_CG_129B.grd": {
       "title": "CG_129B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -2445,6 +2452,7 @@
     },
     "HHHH_CD_129B.grd": {
       "title": "CD_129B Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -2452,7 +2460,7 @@
     },
     "HVHV_CD_129B.grd": {
       "title": "CD_129B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -2460,7 +2468,7 @@
     },
     "VVVV_CD_129B.grd": {
       "title": "CD_129B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -2468,7 +2476,7 @@
     },
     "HHHV_CD_129B.grd": {
       "title": "CD_129B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -2476,7 +2484,7 @@
     },
     "HHVV_CD_129B.grd": {
       "title": "CD_129B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -2484,7 +2492,7 @@
     },
     "HVVV_CD_129B.grd": {
       "title": "CD_129B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -2692,7 +2700,7 @@
     },
     "HHHH_CG_138A.grd": {
       "title": "CG_138A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -2700,7 +2708,7 @@
     },
     "HVHV_CG_138A.grd": {
       "title": "CG_138A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -2708,7 +2716,7 @@
     },
     "VVVV_CG_138A.grd": {
       "title": "CG_138A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -2716,7 +2724,7 @@
     },
     "HHHV_CG_138A.grd": {
       "title": "CG_138A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -2724,7 +2732,7 @@
     },
     "HHVV_CG_138A.grd": {
       "title": "CG_138A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -2732,7 +2740,7 @@
     },
     "HVVV_CG_138A.grd": {
       "title": "CG_138A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -2756,6 +2764,7 @@
     },
     "HHHH_CD_138A.grd": {
       "title": "CD_138A Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -2763,7 +2772,7 @@
     },
     "HVHV_CD_138A.grd": {
       "title": "CD_138A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -2771,7 +2780,7 @@
     },
     "VVVV_CD_138A.grd": {
       "title": "CD_138A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -2779,7 +2788,7 @@
     },
     "HHHV_CD_138A.grd": {
       "title": "CD_138A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -2787,7 +2796,7 @@
     },
     "HHVV_CD_138A.grd": {
       "title": "CD_138A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -2795,7 +2804,7 @@
     },
     "HVVV_CD_138A.grd": {
       "title": "CD_138A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -3003,7 +3012,7 @@
     },
     "HHHH_CG_138B.grd": {
       "title": "CG_138B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -3011,7 +3020,7 @@
     },
     "HVHV_CG_138B.grd": {
       "title": "CG_138B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -3019,7 +3028,7 @@
     },
     "VVVV_CG_138B.grd": {
       "title": "CG_138B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -3027,7 +3036,7 @@
     },
     "HHHV_CG_138B.grd": {
       "title": "CG_138B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -3035,7 +3044,7 @@
     },
     "HHVV_CG_138B.grd": {
       "title": "CG_138B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -3043,7 +3052,7 @@
     },
     "HVVV_CG_138B.grd": {
       "title": "CG_138B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -3059,6 +3068,7 @@
     },
     "HHHH_CD_138B.grd": {
       "title": "CD_138B Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -3066,7 +3076,7 @@
     },
     "HVHV_CD_138B.grd": {
       "title": "CD_138B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -3074,7 +3084,7 @@
     },
     "VVVV_CD_138B.grd": {
       "title": "CD_138B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -3082,7 +3092,7 @@
     },
     "HHHV_CD_138B.grd": {
       "title": "CD_138B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -3090,7 +3100,7 @@
     },
     "HHVV_CD_138B.grd": {
       "title": "CD_138B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -3098,7 +3108,7 @@
     },
     "HVVV_CD_138B.grd": {
       "title": "CD_138B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 138B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -3306,7 +3316,7 @@
     },
     "HHHH_CG_143A.grd": {
       "title": "CG_143A Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -3314,7 +3324,7 @@
     },
     "HVHV_CG_143A.grd": {
       "title": "CG_143A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -3322,7 +3332,7 @@
     },
     "VVVV_CG_143A.grd": {
       "title": "CG_143A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -3330,7 +3340,7 @@
     },
     "HHHV_CG_143A.grd": {
       "title": "CG_143A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -3338,7 +3348,7 @@
     },
     "HHVV_CG_143A.grd": {
       "title": "CG_143A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -3346,7 +3356,7 @@
     },
     "HVVV_CG_143A.grd": {
       "title": "CG_143A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -3370,6 +3380,7 @@
     },
     "HHHH_CD_143A.grd": {
       "title": "CD_143A Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -3377,7 +3388,7 @@
     },
     "HVHV_CD_143A.grd": {
       "title": "CD_143A Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -3385,7 +3396,7 @@
     },
     "VVVV_CD_143A.grd": {
       "title": "CD_143A Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -3393,7 +3404,7 @@
     },
     "HHHV_CD_143A.grd": {
       "title": "CD_143A Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -3401,7 +3412,7 @@
     },
     "HHVV_CD_143A.grd": {
       "title": "CD_143A Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -3409,7 +3420,7 @@
     },
     "HVVV_CD_143A.grd": {
       "title": "CD_143A Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143A ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -3617,7 +3628,7 @@
     },
     "HHHH_CG_143B.grd": {
       "title": "CG_143B Ground Range Projected File for Crossproduct HHHH",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -3625,7 +3636,7 @@
     },
     "HVHV_CG_143B.grd": {
       "title": "CG_143B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -3633,7 +3644,7 @@
     },
     "VVVV_CG_143B.grd": {
       "title": "CG_143B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -3641,7 +3652,7 @@
     },
     "HHHV_CG_143B.grd": {
       "title": "CG_143B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -3649,7 +3660,7 @@
     },
     "HHVV_CG_143B.grd": {
       "title": "CG_143B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -3657,7 +3668,7 @@
     },
     "HVVV_CG_143B.grd": {
       "title": "CG_143B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered With Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
@@ -3673,6 +3684,7 @@
     },
     "HHHH_CD_143B.grd": {
       "title": "CD_143B Ground Range Projected File for Crossproduct HHHH",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
       "role": [
         "data"
@@ -3680,7 +3692,7 @@
     },
     "HVHV_CD_143B.grd": {
       "title": "CD_143B Ground Range Projected File for Crossproduct HVHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
       "role": [
         "data"
@@ -3688,7 +3700,7 @@
     },
     "VVVV_CD_143B.grd": {
       "title": "CD_143B Ground Range Projected File for Crossproduct VVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
       "role": [
         "data"
@@ -3696,7 +3708,7 @@
     },
     "HHHV_CD_143B.grd": {
       "title": "CD_143B Ground Range Projected File for Crossproduct HHHV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
       "role": [
         "data"
@@ -3704,7 +3716,7 @@
     },
     "HHVV_CD_143B.grd": {
       "title": "CD_143B Ground Range Projected File for Crossproduct HHVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
       "role": [
         "data"
@@ -3712,7 +3724,7 @@
     },
     "HVVV_CD_143B.grd": {
       "title": "CD_143B Ground Range Projected File for Crossproduct HVVV",
-      "type": "",
+      "type": "application/octet-stream",
       "description": "Dithered Without Gaps: 143B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
       "role": [
         "data"
