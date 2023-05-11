@@ -253,7 +253,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITH_GAPS(
         f"HHHH_{xtalk}G_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}G_{frequency} Ground Range Projected File for Crossproduct HHHH",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered With Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HHHH"
@@ -264,7 +264,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITH_GAPS(
         f"HVHV_{xtalk}G_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}G_{frequency} Ground Range Projected File for Crossproduct HVHV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered With Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HVHV"
@@ -275,7 +275,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITH_GAPS(
         f"VVVV_{xtalk}G_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}G_{frequency} Ground Range Projected File for Crossproduct VVVV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered With Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct VVVV"
@@ -286,7 +286,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITH_GAPS(
         f"HHHV_{xtalk}G_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}G_{frequency} Ground Range Projected File for Crossproduct HHHV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered With Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HHHV"
@@ -297,7 +297,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITH_GAPS(
         f"HHVV_{xtalk}G_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}G_{frequency} Ground Range Projected File for Crossproduct HHVV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered With Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HHVV"
@@ -308,7 +308,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITH_GAPS(
         f"HVVV_{xtalk}G_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}G_{frequency} Ground Range Projected File for Crossproduct HVVV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered With Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HVVV"
@@ -344,6 +344,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITHOUT_GAPS(
         f"HHHH_{xtalk}D_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}D_{frequency} Ground Range Projected File for Crossproduct HHHH",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered Without Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HHHH"
@@ -354,7 +355,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITHOUT_GAPS(
         f"HVHV_{xtalk}D_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}D_{frequency} Ground Range Projected File for Crossproduct HVHV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered Without Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HVHV"
@@ -365,7 +366,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITHOUT_GAPS(
         f"VVVV_{xtalk}D_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}D_{frequency} Ground Range Projected File for Crossproduct VVVV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered Without Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct VVVV"
@@ -376,7 +377,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITHOUT_GAPS(
         f"HHHV_{xtalk}D_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}D_{frequency} Ground Range Projected File for Crossproduct HHHV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered Without Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HHHV"
@@ -387,7 +388,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITHOUT_GAPS(
         f"HHVV_{xtalk}D_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}D_{frequency} Ground Range Projected File for Crossproduct HHVV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered Without Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HHVV"
@@ -398,7 +399,7 @@ def NISAR_SIM_ASSETS_DITHERED_WITHOUT_GAPS(
         f"HVVV_{xtalk}D_{frequency}.grd": AssetDefinition(
             {
                 "title": f"{xtalk}D_{frequency} Ground Range Projected File for Crossproduct HVVV",
-                "type": "",
+                "type": "application/octet-stream",
                 "description": (
                     f"Dithered Without Gaps: {frequency} ground range projected (equiangular) and"
                     " multi-looked data for crossproduct HVVV"
