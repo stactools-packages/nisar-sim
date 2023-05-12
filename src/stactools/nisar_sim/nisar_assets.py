@@ -424,21 +424,20 @@ def get_assets(
     collection: Optional[bool] = None,
     dither: Optional[str] = None,
     xtalk: Optional[str] = None,
-    frequency: Optional[str] = None,
 ) -> Dict[str, AssetDefinition]:
-    all_frequencies = [f"{freq}{suffix}" for freq in c.NMODE for suffix in ["A", "B"]]
+    nmodes = [f"{mode}{frequency}" for mode in c.NMODE for frequency in ["A", "B"]]
     assets = {}
 
     if collection:
         for _talk in c.XTALK:
-            for _frequency in all_frequencies:
+            for _frequency in nmodes:
                 assets.update(NISAR_SIM_ASSETS_NO_DITHER(_talk, _frequency))
                 assets.update(NISAR_SIM_ASSETS_DITHERED_WITH_GAPS(_talk, _frequency))
                 assets.update(NISAR_SIM_ASSETS_DITHERED_WITHOUT_GAPS(_talk, _frequency))
     if dither:
         if not xtalk:
             xtalk = "C"
-        for _frequency in all_frequencies:
+        for _frequency in nmodes:
             if dither == "X":
                 assets.update(NISAR_SIM_ASSETS_NO_DITHER(xtalk, _frequency))
             if dither == "G":

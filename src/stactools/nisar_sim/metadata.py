@@ -32,7 +32,8 @@ class MetadataLinks:
         self.id = os.path.basename(os.path.normpath(href))
 
         self.h5_href = self._href_modifier(href, extension=".h5", nmode=nmode)
-        self.ann_href = self._href_modifier(href, extension=".ann", nmode=f"{nmode}A")
+        self.ann_a_href = self._href_modifier(href, extension=".ann", nmode=f"{nmode}A")
+        self.ann_b_href = self._href_modifier(href, extension=".ann", nmode=f"{nmode}B")
 
     def _replace_dither(self, id: str, dither: str) -> str:
         id_pattern = r"_([CX])([DGX])_"
@@ -70,9 +71,11 @@ class HDF5Metadata:
 class AnnotatedMetadata:
     """Reads annotation file into a usable dict"""
 
-    def __init__(self, ann_href: str) -> None:
-        self.href = ann_href
-        self.metadata = self.parse_ann(self.href)
+    def __init__(self, ann_a_href: str, ann_b_href: str) -> None:
+        self.ann_a_href = ann_a_href
+        self.ann_b_href = ann_b_href
+        self.metadata_a = self.parse_ann(self.ann_a_href)
+        self.metadata_b = self.parse_ann(self.ann_b_href)
 
     def parse_ann(self, ann_href: str) -> Dict[str, Any]:
         """Reads in annotated file location and returns dict of key-value pairs
@@ -165,19 +168,20 @@ class Metadata:
             return str_to_datetime(str(set_time))
 
     @property
-    def inventory(self) -> Dict[str, str]:
-        if not (
-            files := {
-                k: v for k, v in self.ann_metadata.metadata.items() if self.base_id in v
-            }
-        ):
+    def inventory(self) -> List[str]:
+        files: List[str] = []
+        for metadata in [self.ann_metadata.metadata_a, self.ann_metadata.metadata_b]:
+            files.extend(v for k, v in metadata.items() if self.base_id in v)
+        if not files:
             raise AnnotatedMetadataException(
-                "Cannot determine product files using annotated metadata "
-                f" at {self.ann_metadata.href}"
+                "Cannot determine product files using annotated metadata at "
+                f"{self.ann_metadata.ann_a_href} or {self.ann_metadata.ann_b_href}"
             )
-        files["ann_A"] = os.path.basename(self.ann_metadata.href)
-        files["ann_B"] = re.sub(
-            r"A(?!.*A)", "B", os.path.basename(self.ann_metadata.href)
+        files.extend(
+            [
+                os.path.basename(self.ann_metadata.ann_a_href),
+                os.path.basename(self.ann_metadata.ann_b_href),
+            ]
         )
         return files
 

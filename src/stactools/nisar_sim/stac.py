@@ -76,7 +76,7 @@ def create_item(product_path: str, dither: str, nmode: str) -> Item:
     """
     metalinks = MetadataLinks(product_path, dither, nmode)
     h5_data = HDF5Metadata(metalinks.h5_href)
-    ann_data = AnnotatedMetadata(metalinks.ann_href)
+    ann_data = AnnotatedMetadata(metalinks.ann_a_href, metalinks.ann_b_href)
     metadata = Metadata(product_path, metalinks.id, h5_data, ann_data)
 
     item = Item(
@@ -93,21 +93,19 @@ def create_item(product_path: str, dither: str, nmode: str) -> Item:
 
     get_xtalk = re.search(r"_(\w)\w_", metalinks.id)
     xtalk = get_xtalk[1] if get_xtalk else "C"
-    version = metalinks.id.rsplit("_", 1)[1]
 
     expected_assets = get_assets(dither=dither, xtalk=xtalk)
-    expected_assets_with_versions = {
-        f"{k.split('.')[0]}_{version}.{k.split('.')[1]}": v
-        for k, v in expected_assets.items()
-    }
 
-    for key, value in metadata.inventory.items():
-        base_id = len(metadata.base_id)  # lint work around
-        if (
-            asset_def := expected_assets_with_versions.get(value[base_id:].lstrip("_"))
-        ) is not None:
-            asset = asset_def.create_asset((value))
-            item.add_asset(key, asset)
+    # fmt: off
+    def asset_name(name: str) -> str:
+        versionless = name[:name.rfind("_")] + name[name.find("."):]
+        return versionless[len(metadata.base_id):].lstrip("_")
+    # fmt: on
+
+    for _file in metadata.inventory:
+        if asset_def := expected_assets.get(asset_name(_file)):
+            asset = asset_def.create_asset(_file)
+            item.add_asset(asset_name(_file), asset)
 
     # SAT extension
     sat = SatExtension.ext(item, add_if_missing=True)
