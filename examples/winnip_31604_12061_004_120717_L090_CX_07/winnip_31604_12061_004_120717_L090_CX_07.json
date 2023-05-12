@@ -55,7 +55,7 @@
     }
   ],
   "assets": {
-    "hgt": {
+    "CX_129A.hgt": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.hgt",
       "type": "application/octet-stream",
       "title": "CX_129A HGT File",
@@ -64,7 +64,7 @@
         "data"
       ]
     },
-    "inc": {
+    "CX_129A.inc": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.inc",
       "type": "application/octet-stream",
       "title": "CX_129A Incidence Angle File",
@@ -73,7 +73,7 @@
         "data"
       ]
     },
-    "slope": {
+    "CX_129A.slope": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.slope",
       "type": "application/octet-stream",
       "title": "CX_129A Terrain Slope File",
@@ -82,7 +82,7 @@
         "data"
       ]
     },
-    "rtc": {
+    "CX_129A.rtc": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.rtc",
       "type": "application/octet-stream",
       "title": "CX_129A Radiometric Terrain Correction Factor",
@@ -91,7 +91,7 @@
         "data"
       ]
     },
-    "h5": {
+    "CX_129.h5": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129_07.h5",
       "type": "application/x-hdf5",
       "title": "CD_129 HDF5 Data File",
@@ -100,7 +100,7 @@
         "data"
       ]
     },
-    "slcHH": {
+    "HH_CX_129A.slc": {
       "href": "winnip_31604_12061_004_120717_L090HH_CX_129A_07.slc",
       "type": "application/octet-stream",
       "title": "CX_129A HH Polarization Single Look Complex File",
@@ -109,7 +109,7 @@
         "data"
       ]
     },
-    "slcHV": {
+    "HV_CX_129A.slc": {
       "href": "winnip_31604_12061_004_120717_L090HV_CX_129A_07.slc",
       "type": "application/octet-stream",
       "title": "CX_129A HV Polarization Single Look Complex File",
@@ -118,7 +118,7 @@
         "data"
       ]
     },
-    "slcVH": {
+    "VH_CX_129A.slc": {
       "href": "winnip_31604_12061_004_120717_L090VH_CX_129A_07.slc",
       "type": "application/octet-stream",
       "title": "CX_129A VH Polarization Single Look Complex File",
@@ -127,7 +127,7 @@
         "data"
       ]
     },
-    "slcVV": {
+    "VV_CX_129A.slc": {
       "href": "winnip_31604_12061_004_120717_L090VV_CX_129A_07.slc",
       "type": "application/octet-stream",
       "title": "CX_129A VV Polarization Single Look Complex File",
@@ -136,7 +136,7 @@
         "data"
       ]
     },
-    "mlcHHHH": {
+    "HHHH_CX_129A.mlc": {
       "href": "winnip_31604_12061_004_120717_L090HHHH_CX_129A_07.mlc",
       "type": "application/octet-stream",
       "title": "CX_129A HHHH Crossproduct Multi Look File",
@@ -145,7 +145,7 @@
         "data"
       ]
     },
-    "mlcHVHV": {
+    "HVHV_CX_129A.mlc": {
       "href": "winnip_31604_12061_004_120717_L090HVHV_CX_129A_07.mlc",
       "type": "application/octet-stream",
       "title": "CX_129A HVHV Crossproduct Multi Look File",
@@ -154,7 +154,7 @@
         "data"
       ]
     },
-    "mlcVVVV": {
+    "VVVV_CX_129A.mlc": {
       "href": "winnip_31604_12061_004_120717_L090VVVV_CX_129A_07.mlc",
       "type": "application/octet-stream",
       "title": "CX_129A VVVV Crossproduct Multi Look File",
@@ -163,7 +163,7 @@
         "data"
       ]
     },
-    "mlcHHHV": {
+    "HHHV_CX_129A.mlc": {
       "href": "winnip_31604_12061_004_120717_L090HHHV_CX_129A_07.mlc",
       "type": "application/octet-stream",
       "title": "CX_129A HHHV Crossproduct Multi Look File",
@@ -172,7 +172,7 @@
         "data"
       ]
     },
-    "mlcHHVV": {
+    "HHVV_CX_129A.mlc": {
       "href": "winnip_31604_12061_004_120717_L090HHVV_CX_129A_07.mlc",
       "type": "application/octet-stream",
       "title": "CX_129A HHVV Crossproduct Multi Look File",
@@ -181,7 +181,7 @@
         "data"
       ]
     },
-    "mlcHVVV": {
+    "HVVV_CX_129A.mlc": {
       "href": "winnip_31604_12061_004_120717_L090HVVV_CX_129A_07.mlc",
       "type": "application/octet-stream",
       "title": "CX_129A HVVV Crossproduct Multi Look File",
@@ -190,7 +190,7 @@
         "data"
       ]
     },
-    "grdHHHH": {
+    "HHHH_CX_129A.grd": {
       "href": "winnip_31604_12061_004_120717_L090HHHH_CX_129A_07.grd",
       "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct HHHH",
@@ -199,7 +199,7 @@
         "data"
       ]
     },
-    "grdHVHV": {
+    "HVHV_CX_129A.grd": {
       "href": "winnip_31604_12061_004_120717_L090HVHV_CX_129A_07.grd",
       "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct HVHV",
@@ -208,7 +208,7 @@
         "data"
       ]
     },
-    "grdVVVV": {
+    "VVVV_CX_129A.grd": {
       "href": "winnip_31604_12061_004_120717_L090VVVV_CX_129A_07.grd",
       "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct VVVV",
@@ -217,7 +217,7 @@
         "data"
       ]
     },
-    "grdHHHV": {
+    "HHHV_CX_129A.grd": {
       "href": "winnip_31604_12061_004_120717_L090HHHV_CX_129A_07.grd",
       "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct HHHV",
@@ -226,7 +226,7 @@
         "data"
       ]
     },
-    "grdHHVV": {
+    "HHVV_CX_129A.grd": {
       "href": "winnip_31604_12061_004_120717_L090HHVV_CX_129A_07.grd",
       "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct HHVV",
@@ -235,7 +235,7 @@
         "data"
       ]
     },
-    "grdHVVV": {
+    "HVVV_CX_129A.grd": {
       "href": "winnip_31604_12061_004_120717_L090HVVV_CX_129A_07.grd",
       "type": "application/octet-stream",
       "title": "CX_129A Ground Range Projected File for Crossproduct HVVV",
@@ -244,7 +244,16 @@
         "data"
       ]
     },
-    "kmz": {
+    "CX_129A.flat.inc": {
+      "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.flat.inc",
+      "type": "application/octet-stream",
+      "title": "CX_129A Flat Earth Incidence Angle File",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129A.kmz": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.kmz",
       "type": "application/vnd.google-earth.kmz",
       "title": "CX_129A Keyhole Markup Language Zipped File",
@@ -253,7 +262,205 @@
         "overlay"
       ]
     },
-    "ann_A": {
+    "CX_129B.hgt": {
+      "href": "winnip_31604_12061_004_120717_L090_CX_129B_07.hgt",
+      "type": "application/octet-stream",
+      "title": "CX_129B HGT File",
+      "description": "Digital elevation model (DEM) used during processing and ground projection",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.inc": {
+      "href": "winnip_31604_12061_004_120717_L090_CX_129B_07.inc",
+      "type": "application/octet-stream",
+      "title": "CX_129B Incidence Angle File",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight.",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.slope": {
+      "href": "winnip_31604_12061_004_120717_L090_CX_129B_07.slope",
+      "type": "application/octet-stream",
+      "title": "CX_129B Terrain Slope File",
+      "description": "Ground range terrain slope containing the derivatives of the DEM in the East and North direction, used to compute the local incidence angle",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.rtc": {
+      "href": "winnip_31604_12061_004_120717_L090_CX_129B_07.rtc",
+      "type": "application/octet-stream",
+      "title": "CX_129B Radiometric Terrain Correction Factor",
+      "description": "Radiometric terrain correction factor that can be applied to grd files",
+      "role": [
+        "data"
+      ]
+    },
+    "HH_CX_129B.slc": {
+      "href": "winnip_31604_12061_004_120717_L090HH_CX_129B_07.slc",
+      "type": "application/octet-stream",
+      "title": "CX_129B HH Polarization Single Look Complex File",
+      "description": "Single look complex slant range image for HH polarization",
+      "role": [
+        "data"
+      ]
+    },
+    "HV_CX_129B.slc": {
+      "href": "winnip_31604_12061_004_120717_L090HV_CX_129B_07.slc",
+      "type": "application/octet-stream",
+      "title": "CX_129B HV Polarization Single Look Complex File",
+      "description": "Single look complex slant range image for HV polarization",
+      "role": [
+        "data"
+      ]
+    },
+    "VH_CX_129B.slc": {
+      "href": "winnip_31604_12061_004_120717_L090VH_CX_129B_07.slc",
+      "type": "application/octet-stream",
+      "title": "CX_129B VH Polarization Single Look Complex File",
+      "description": "Single look complex slant range image for VH polarization",
+      "role": [
+        "data"
+      ]
+    },
+    "VV_CX_129B.slc": {
+      "href": "winnip_31604_12061_004_120717_L090VV_CX_129B_07.slc",
+      "type": "application/octet-stream",
+      "title": "CX_129B VV Polarization Single Look Complex File",
+      "description": "Single look complex slant range image for VV polarization",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_129B.mlc": {
+      "href": "winnip_31604_12061_004_120717_L090HHHH_CX_129B_07.mlc",
+      "type": "application/octet-stream",
+      "title": "CX_129B HHHH Crossproduct Multi Look File",
+      "description": "Multi look cross product slant range image for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_129B.mlc": {
+      "href": "winnip_31604_12061_004_120717_L090HVHV_CX_129B_07.mlc",
+      "type": "application/octet-stream",
+      "title": "CX_129B HVHV Crossproduct Multi Look File",
+      "description": "Multi look cross product slant range image for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_129B.mlc": {
+      "href": "winnip_31604_12061_004_120717_L090VVVV_CX_129B_07.mlc",
+      "type": "application/octet-stream",
+      "title": "CX_129B VVVV Crossproduct Multi Look File",
+      "description": "Multi look cross product slant range image for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_129B.mlc": {
+      "href": "winnip_31604_12061_004_120717_L090HHHV_CX_129B_07.mlc",
+      "type": "application/octet-stream",
+      "title": "CX_129B HHHV Crossproduct Multi Look File",
+      "description": "Multi look cross product slant range image for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_129B.mlc": {
+      "href": "winnip_31604_12061_004_120717_L090HHVV_CX_129B_07.mlc",
+      "type": "application/octet-stream",
+      "title": "CX_129B HHVV Crossproduct Multi Look File",
+      "description": "Multi look cross product slant range image for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_129B.mlc": {
+      "href": "winnip_31604_12061_004_120717_L090HVVV_CX_129B_07.mlc",
+      "type": "application/octet-stream",
+      "title": "CX_129B HVVV Crossproduct Multi Look File",
+      "description": "Multi look cross product slant range image for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHH_CX_129B.grd": {
+      "href": "winnip_31604_12061_004_120717_L090HHHH_CX_129B_07.grd",
+      "type": "application/octet-stream",
+      "title": "CX_129B Ground Range Projected File for Crossproduct HHHH",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHH",
+      "role": [
+        "data"
+      ]
+    },
+    "HVHV_CX_129B.grd": {
+      "href": "winnip_31604_12061_004_120717_L090HVHV_CX_129B_07.grd",
+      "type": "application/octet-stream",
+      "title": "CX_129B Ground Range Projected File for Crossproduct HVHV",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVHV",
+      "role": [
+        "data"
+      ]
+    },
+    "VVVV_CX_129B.grd": {
+      "href": "winnip_31604_12061_004_120717_L090VVVV_CX_129B_07.grd",
+      "type": "application/octet-stream",
+      "title": "CX_129B Ground Range Projected File for Crossproduct VVVV",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct VVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHHV_CX_129B.grd": {
+      "href": "winnip_31604_12061_004_120717_L090HHHV_CX_129B_07.grd",
+      "type": "application/octet-stream",
+      "title": "CX_129B Ground Range Projected File for Crossproduct HHHV",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHHV",
+      "role": [
+        "data"
+      ]
+    },
+    "HHVV_CX_129B.grd": {
+      "href": "winnip_31604_12061_004_120717_L090HHVV_CX_129B_07.grd",
+      "type": "application/octet-stream",
+      "title": "CX_129B Ground Range Projected File for Crossproduct HHVV",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HHVV",
+      "role": [
+        "data"
+      ]
+    },
+    "HVVV_CX_129B.grd": {
+      "href": "winnip_31604_12061_004_120717_L090HVVV_CX_129B_07.grd",
+      "type": "application/octet-stream",
+      "title": "CX_129B Ground Range Projected File for Crossproduct HVVV",
+      "description": "No Dither: 129B ground range projected (equiangular) and multi-looked data for crossproduct HVVV",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.flat.inc": {
+      "href": "winnip_31604_12061_004_120717_L090_CX_129B_07.flat.inc",
+      "type": "application/octet-stream",
+      "title": "CX_129B Flat Earth Incidence Angle File",
+      "description": "Ground range local incidence angle, the angle between the surface normal and the radar line of sight",
+      "role": [
+        "data"
+      ]
+    },
+    "CX_129B.kmz": {
+      "href": "winnip_31604_12061_004_120717_L090_CX_129B_07.kmz",
+      "type": "application/vnd.google-earth.kmz",
+      "title": "CX_129B Keyhole Markup Language Zipped File",
+      "description": "Full resolution image representing the GRD data in Keyhole Markup Language",
+      "role": [
+        "overlay"
+      ]
+    },
+    "CX_129A.ann": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129A_07.ann",
       "type": "text/plain",
       "title": "CX_129A Annotation File",
@@ -262,7 +469,7 @@
         "metadata"
       ]
     },
-    "ann_B": {
+    "CX_129B.ann": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129B_07.ann",
       "type": "text/plain",
       "title": "CX_129B Annotation File",
