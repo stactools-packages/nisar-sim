@@ -6,12 +6,12 @@ import pystac
 from click import Command, Group
 from stactools.testing.cli_test import CliTestCase
 
-from stactools.ephemeral.commands import create_ephemeralcmd_command
+from stactools.nisar_sim.commands import create_nisarsim_command
 
 
 class CommandsTest(CliTestCase):
     def create_subcommand_functions(self) -> List[Callable[[Group], Command]]:
-        return [create_ephemeralcmd_command]
+        return [create_nisarsim_command]
 
     def test_create_collection(self) -> None:
         with TemporaryDirectory() as tmp_dir:
@@ -20,7 +20,7 @@ class CommandsTest(CliTestCase):
             # Example:
             destination = os.path.join(tmp_dir, "collection.json")
 
-            result = self.run_command(f"ephemeralcmd create-collection {destination}")
+            result = self.run_command(f"nisarsim create-collection {destination}")
 
             assert result.exit_code == 0, "\n{}".format(result.output)
 
@@ -28,7 +28,7 @@ class CommandsTest(CliTestCase):
             assert len(jsons) == 1
 
             collection = pystac.read_file(destination)
-            assert collection.id == "my-collection-id"
+            assert collection.id == "nisar-sim"
             # assert collection.other_attr...
 
             collection.validate()
@@ -38,10 +38,12 @@ class CommandsTest(CliTestCase):
             # Run your custom create-item command and validate
 
             # Example:
-            infile = "/path/to/asset.tif"
+            inpath = "tests/data-files/winnip_31604_12061_004_120717_L090_CX_07"
             destination = os.path.join(tmp_dir, "item.json")
+            dither = "X"
+            nmode = "129"
             result = self.run_command(
-                f"ephemeralcmd create-item {infile} {destination}"
+                f"nisarsim create-item {inpath} {destination} --dither {dither} --nmode {nmode}"
             )
             assert result.exit_code == 0, "\n{}".format(result.output)
 
@@ -49,7 +51,7 @@ class CommandsTest(CliTestCase):
             assert len(jsons) == 1
 
             item = pystac.read_file(destination)
-            assert item.id == "my-item-id"
+            assert item.id == "winnip_31604_12061_004_120717_L090_CX_07"
             # assert item.other_attr...
 
             item.validate()

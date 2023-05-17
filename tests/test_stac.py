@@ -1,4 +1,4 @@
-from stactools.ephemeral import stac
+from stactools.nisar_sim import stac
 
 
 def test_create_collection() -> None:
@@ -8,7 +8,7 @@ def test_create_collection() -> None:
     collection.set_self_href("")
 
     # Check that it has some required attributes
-    assert collection.id == "my-collection-id"
+    assert collection.id == "nisar-sim"
     # self.assertEqual(collection.other_attr...
 
     # Validate
@@ -18,10 +18,14 @@ def test_create_collection() -> None:
 def test_create_item() -> None:
     # Write tests for each for the creation of STAC Items
     # Create the STAC Item...
-    item = stac.create_item("/path/to/asset.tif")
+    item = stac.create_item(
+        "tests/data-files/winnip_31604_12061_004_120717_L090_CX_07",
+        dither="X",
+        nmode="129",
+    )
 
     # Check that it has some required attributes
-    assert item.id == "my-item-id"
+    assert item.id == "winnip_31604_12061_004_120717_L090_CX_07"
     # self.assertEqual(item.other_attr...
 
     # Validate

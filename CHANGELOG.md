@@ -11,7 +11,12 @@ number as needed.
 
 ### Added
 
-- Nothing.
+- Initial package setup
+- Collection creation
+- Item creation
+- Reading values from h5py metadata
+- Collection and item examples
+- Tests against item and collection generation
 
 ### Deprecated
 
@@ -25,4 +30,4 @@ number as needed.
 
 - Nothing.
 
-[Unreleased]: <https://github.com/stactools-packages/ephemeral/tree/main/>
+[Unreleased]: <https://github.com/stactools-packages/nisar-sim/tree/main/>
