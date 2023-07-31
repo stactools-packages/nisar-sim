@@ -1,0 +1,44 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/python-3
+{
+    "name": "Python 3",
+    "build": {
+      "dockerfile": "../docker/Dockerfile",
+      "context": "..",
+      "args": {
+        // Update 'VARIANT' to pick a Python version: 3, 3.10, 3.9, 3.8, 3.7, 3.6
+        // Currently ignored
+        "VARIANT": "3.10",
+        // Options
+        "DOCKER_NAMESPACE_PACKAGE_DIR": "stactools/nisar_sim",
+        "DOCKER_WORKDIR": "/workspace"
+      }
+    },
+  
+    // Set *default* container specific settings.json values on container create.
+    "settings": {
+      "python.defaultInterpreterPath": "/opt/conda/bin/python",
+      "python.linting.enabled": true,
+      "python.linting.pylintEnabled": true,
+      "python.formatting.blackPath": "/opt/conda/bin/black",
+      "python.linting.flake8Path": "/opt/conda/bin/flake8",
+      "python.linting.mypyPath": "/opt/conda/bin/mypy",
+      "python.linting.pycodestylePath": "/opt/conda/bin/pycodestyle",
+      "python.linting.pylintPath": "/opt/conda/bin/pylint"
+    },
+  
+    // Add the IDs of extensions you want installed when the container is created.
+    "extensions": [
+      "ms-python.python",
+      "ms-python.vscode-pylance"
+    ]
+  
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // "forwardPorts": [],
+  
+    // Use 'postCreateCommand' to run commands after the container is created.
+    //"postCreateCommand": "adduser --uid 1001 --disabled-password --gecos '' nonroot && pre-commit install",
+  
+    // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+    //"remoteUser": "1001"
+}
