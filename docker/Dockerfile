@@ -19,7 +19,7 @@ RUN apt-get -y -q update \
 RUN python -m venv /opt/venv
 RUN pip install . h5py --no-binary rasterio \
     && ls /opt/venv \
-    && rm -r /opt/venv/lib/python3.10/site-packages/stactools/nisar_sim
+    && rm -r /opt/venv/lib/python3.11/site-packages/stactools/nisar_sim
 
 
 FROM dependencies as builder
