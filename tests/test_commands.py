@@ -4,12 +4,16 @@ from typing import Callable, List
 
 import pystac
 from click import Command, Group
-from stactools.testing.cli_test import CliTestCase
+from click.testing import CliRunner
+from stactools.cli.cli import cli
 
 from stactools.nisar_sim.commands import create_nisarsim_command
 
 
-class CommandsTest(CliTestCase):
+class CommandsTest:
+    def __init__(self) -> None:
+        self.runner = CliRunner()
+
     def create_subcommand_functions(self) -> List[Callable[[Group], Command]]:
         return [create_nisarsim_command]
 
@@ -20,9 +24,11 @@ class CommandsTest(CliTestCase):
             # Example:
             destination = os.path.join(tmp_dir, "collection.json")
 
-            result = self.run_command(f"nisarsim create-collection {destination}")
+            result = self.runner.invoke(
+                cli, ["nisarsim", "create-collection" f"{destination}"]
+            )
 
-            assert result.exit_code == 0, "\n{}".format(result.output)
+            assert result.exit_code == 0, f"\n{result.output}"
 
             jsons = [p for p in os.listdir(tmp_dir) if p.endswith(".json")]
             assert len(jsons) == 1
@@ -42,10 +48,18 @@ class CommandsTest(CliTestCase):
             destination = os.path.join(tmp_dir, "item.json")
             dither = "X"
             nmode = "129"
-            result = self.run_command(
-                f"nisarsim create-item {inpath} {destination} --dither {dither} --nmode {nmode}"
+            result = self.runner.invoke(
+                cli,
+                [
+                    "nisarsim",
+                    "create-item",
+                    f"{inpath}",
+                    f"{destination}",
+                    f"--dither {dither}",
+                    f"--nmode {nmode}",
+                ],
             )
-            assert result.exit_code == 0, "\n{}".format(result.output)
+            assert result.exit_code == 0, f"\n{result.output}"
 
             jsons = [p for p in os.listdir(tmp_dir) if p.endswith(".json")]
             assert len(jsons) == 1
