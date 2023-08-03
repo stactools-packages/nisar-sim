@@ -94,8 +94,8 @@
     "CX_129.h5": {
       "href": "winnip_31604_12061_004_120717_L090_CX_129_07.h5",
       "type": "application/x-hdf5",
-      "title": "CD_129 HDF5 Data File",
-      "description": "No Dither: 129 Frequency HDF5 file in NISAR format",
+      "title": "CX_129 HDF5 Data File",
+      "description": "No Dither: 129 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]

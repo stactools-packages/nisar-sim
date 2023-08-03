@@ -219,9 +219,9 @@
       ]
     },
     "XX_129.h5": {
-      "title": "XD_129 HDF5 Data File",
+      "title": "XX_129 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "No Dither: 129 Frequency HDF5 file in NISAR format",
+      "description": "No Dither: 129 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -283,9 +283,9 @@
       ]
     },
     "XG_129.h5": {
-      "title": "XD_129 HDF5 Data File",
+      "title": "XG_129 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered With Gaps: 129 Frequency HDF5 file in NISAR format",
+      "description": "Dithered With Gaps: 129 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -349,7 +349,7 @@
     "XD_129.h5": {
       "title": "XD_129 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered Without Gaps: 129 Frequency HDF5 file in NISAR format",
+      "description": "Dithered Without Gaps: 129 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -835,9 +835,9 @@
       ]
     },
     "XX_138.h5": {
-      "title": "XD_138 HDF5 Data File",
+      "title": "XX_138 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "No Dither: 138 Frequency HDF5 file in NISAR format",
+      "description": "No Dither: 138 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -899,9 +899,9 @@
       ]
     },
     "XG_138.h5": {
-      "title": "XD_138 HDF5 Data File",
+      "title": "XG_138 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered With Gaps: 138 Frequency HDF5 file in NISAR format",
+      "description": "Dithered With Gaps: 138 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -965,7 +965,7 @@
     "XD_138.h5": {
       "title": "XD_138 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered Without Gaps: 138 Frequency HDF5 file in NISAR format",
+      "description": "Dithered Without Gaps: 138 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -1451,9 +1451,9 @@
       ]
     },
     "XX_143.h5": {
-      "title": "XD_143 HDF5 Data File",
+      "title": "XX_143 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "No Dither: 143 Frequency HDF5 file in NISAR format",
+      "description": "No Dither: 143 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -1515,9 +1515,9 @@
       ]
     },
     "XG_143.h5": {
-      "title": "XD_143 HDF5 Data File",
+      "title": "XG_143 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered With Gaps: 143 Frequency HDF5 file in NISAR format",
+      "description": "Dithered With Gaps: 143 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -1581,7 +1581,7 @@
     "XD_143.h5": {
       "title": "XD_143 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered Without Gaps: 143 Frequency HDF5 file in NISAR format",
+      "description": "Dithered Without Gaps: 143 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -2067,9 +2067,9 @@
       ]
     },
     "CX_129.h5": {
-      "title": "CD_129 HDF5 Data File",
+      "title": "CX_129 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "No Dither: 129 Frequency HDF5 file in NISAR format",
+      "description": "No Dither: 129 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -2131,9 +2131,9 @@
       ]
     },
     "CG_129.h5": {
-      "title": "CD_129 HDF5 Data File",
+      "title": "CG_129 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered With Gaps: 129 Frequency HDF5 file in NISAR format",
+      "description": "Dithered With Gaps: 129 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -2197,7 +2197,7 @@
     "CD_129.h5": {
       "title": "CD_129 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered Without Gaps: 129 Frequency HDF5 file in NISAR format",
+      "description": "Dithered Without Gaps: 129 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -2683,9 +2683,9 @@
       ]
     },
     "CX_138.h5": {
-      "title": "CD_138 HDF5 Data File",
+      "title": "CX_138 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "No Dither: 138 Frequency HDF5 file in NISAR format",
+      "description": "No Dither: 138 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -2747,9 +2747,9 @@
       ]
     },
     "CG_138.h5": {
-      "title": "CD_138 HDF5 Data File",
+      "title": "CG_138 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered With Gaps: 138 Frequency HDF5 file in NISAR format",
+      "description": "Dithered With Gaps: 138 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -2813,7 +2813,7 @@
     "CD_138.h5": {
       "title": "CD_138 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered Without Gaps: 138 Frequency HDF5 file in NISAR format",
+      "description": "Dithered Without Gaps: 138 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -3299,9 +3299,9 @@
       ]
     },
     "CX_143.h5": {
-      "title": "CD_143 HDF5 Data File",
+      "title": "CX_143 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "No Dither: 143 Frequency HDF5 file in NISAR format",
+      "description": "No Dither: 143 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -3363,9 +3363,9 @@
       ]
     },
     "CG_143.h5": {
-      "title": "CD_143 HDF5 Data File",
+      "title": "CG_143 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered With Gaps: 143 Frequency HDF5 file in NISAR format",
+      "description": "Dithered With Gaps: 143 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
@@ -3429,7 +3429,7 @@
     "CD_143.h5": {
       "title": "CD_143 HDF5 Data File",
       "type": "application/x-hdf5",
-      "description": "Dithered Without Gaps: 143 Frequency HDF5 file in NISAR format",
+      "description": "Dithered Without Gaps: 143 NMode HDF5 file in NISAR format",
       "role": [
         "data"
       ]
