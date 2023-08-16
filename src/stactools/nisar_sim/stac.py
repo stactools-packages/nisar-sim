@@ -59,7 +59,7 @@ def create_collection() -> Collection:
     return collection
 
 
-def create_item(product_path: str, dither: str, nmode: str) -> Item:
+def create_item(product_path: str, dither: str, nmode: str, sat_extension: bool = False) -> Item:
     """Create a STAC Item
 
     Args:
@@ -70,12 +70,13 @@ def create_item(product_path: str, dither: str, nmode: str) -> Item:
             D: Dithered without gaps
         nmode (str): set of numbers associated with a specific center frequency,
             bandwidth, and polarization ("129","138","143")
+        sat_extension (bool): Whether to include the SAT extension. Requires that the HDF5 file is present in `product_path`.
 
     Returns:
         Item: STAC Item object
     """
     metalinks = MetadataLinks(product_path, dither, nmode)
-    h5_data = HDF5Metadata(metalinks.h5_href)
+    h5_data = HDF5Metadata(metalinks.h5_href) if sat_extension else None
     ann_data = AnnotatedMetadata(metalinks.ann_a_href, metalinks.ann_b_href)
     metadata = Metadata(product_path, metalinks.id, h5_data, ann_data)
 
@@ -108,7 +109,8 @@ def create_item(product_path: str, dither: str, nmode: str) -> Item:
             item.add_asset(asset_name(_file), asset)
 
     # SAT extension
-    sat = SatExtension.ext(item, add_if_missing=True)
-    fill_sat_properties(sat, h5_data.metadata)
+    if sat_extension:
+        sat = SatExtension.ext(item, add_if_missing=True)
+        fill_sat_properties(sat, h5_data.metadata)
 
     return item

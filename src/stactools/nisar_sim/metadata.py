@@ -10,6 +10,7 @@ from pystac.extensions.sat import SatExtension
 from pystac.utils import str_to_datetime
 from shapely.geometry import mapping
 from shapely.wkt import loads
+import numpy as np
 
 T = TypeVar("T", pystac.Item, pystac.Asset)
 
@@ -106,66 +107,45 @@ class AnnotatedMetadata:
 
 class Metadata:
     def __init__(self, href: str, id: str, h5_metadata: Any, ann_metadata: Any) -> None:
+
         self.href = href
         self.base_id = "_".join(id.split("_")[:-2])
         self.h5_metadata = h5_metadata
         self.ann_metadata = ann_metadata
-
-        def _get_geometries() -> Tuple[List[float], Dict[str, Any]]:
-            h5_polygon = self.h5_metadata.metadata["science"]["LSAR"][
-                "identification"
-            ].get("boundingPolygon")
-            if not h5_polygon:
-                raise H5MetadataException(
-                    f"Unable to locate boundingPolygon for {self.h5_metadata.href}"
-                )
-            polygon = loads(h5_polygon[()])
-            geometry = mapping(polygon)
-            bbox = list(polygon.bounds)
-
+        
+        def _get_geometries_from_ann_metadata() -> Tuple[List[float], Dict[str, Any]]:
+            # using the A file for geometries. A and B are approximately similar. 
+            
+            def _get_rounded_coord(k) -> float:
+                return np.round(float(self.ann_metadata.metadata_a[k]), 4)
+            
+            
+            bbox = [_get_rounded_coord(k) for k in ["Approximate_Lower_Left_Longitude", "Approximate_Lower_Left_Latitude", "Approximate_Upper_Right_Longitude", "Approximate_Upper_Right_Latitude"]]
+            
+            polygon_coords = [
+                [_get_rounded_coord(k) for k in ["Approximate_Upper_Left_Longitude", "Approximate_Upper_Left_Latitude"]],
+                [_get_rounded_coord(k) for k in ["Approximate_Upper_Right_Longitude", "Approximate_Upper_Right_Latitude"]],
+                [_get_rounded_coord(k) for k in ["Approximate_Lower_Left_Longitude", "Approximate_Lower_Left_Latitude"]],
+                [_get_rounded_coord(k) for k in ["Approximate_Lower_Right_Longitude", "Approximate_Lower_Right_Latitude"]],
+                [_get_rounded_coord(k) for k in ["Approximate_Upper_Left_Longitude", "Approximate_Upper_Left_Latitude"]],                
+            ]
+            
+            geometry = {'type': 'Polygon', 'coordinates': [polygon_coords]}
             return (bbox, geometry)
-
-        self.bbox, self.geometry = _get_geometries()
+        
+        self.bbox, self.geometry = _get_geometries_from_ann_metadata()
 
     @property
     def start_datetime(self) -> datetime:
-        if start_time := self.h5_metadata.metadata["science"]["LSAR"][
-            "identification"
-        ].get("zeroDopplerStartTime"):
-            return str_to_datetime(start_time[()])
-        else:
-            raise ValueError(
-                "Cannot determine product start time using H5 metadata "
-                f" at {self.h5_metadata.href}"
-            )
-
+        return datetime.strptime(self.ann_metadata.metadata_a['Start_Time_of_Acquisition'], "%d-%b-%Y %H:%M:%S %Z")
+        
     @property
     def end_datetime(self) -> datetime:
-        if end_time := self.h5_metadata.metadata["science"]["LSAR"][
-            "identification"
-        ].get("zeroDopplerEndTime"):
-            return str_to_datetime(end_time[()])
-        else:
-            raise ValueError(
-                "Cannot determine product end time using H5 metadata "
-                f" at {self.h5_metadata.href}"
-            )
-
+        return datetime.strptime(self.ann_metadata.metadata_a['Stop_Time_of_Acquisition'], "%d-%b-%Y %H:%M:%S %Z")
+        
     @property
     def get_datetime(self) -> datetime:
-        start_time = self.start_datetime
-        end_time = self.end_datetime
-
-        if all([start_time, end_time]):
-            set_time = start_time + (end_time - start_time) / 2
-
-        if not set_time:
-            raise ValueError(
-                "Cannot determine product datetime using H5 metadata "
-                f" at {self.h5_metadata.href}"
-            )
-        else:
-            return str_to_datetime(str(set_time))
+        return datetime.strptime(self.ann_metadata.metadata_a['Date_of_Acquisition'], "%d-%b-%Y %H:%M:%S %Z")
 
     @property
     def inventory(self) -> List[str]:

@@ -4,54 +4,40 @@
   "id": "winnip_31604_12061_004_120717_L090_CX_07",
   "properties": {
     "proj:epsg": 4326,
-    "sat:absolute_orbit": 12061,
-    "datetime": "2012-07-17T14:39:45.732157Z"
+    "datetime": "2012-07-17T14:36:47Z"
   },
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -97.683,
-          49.486
+          -98.6699,
+          49.846
         ],
         [
-          -97.908,
-          49.343
+          -98.4496,
+          49.9867
         ],
         [
-          -98.669,
-          49.847
+          -97.9093,
+          49.3426
         ],
         [
-          -98.443,
-          49.991
+          -97.6891,
+          49.4819
         ],
         [
-          -97.683,
-          49.486
+          -98.6699,
+          49.846
         ]
       ]
     ]
   },
   "links": [
     {
-      "rel": "root",
-      "href": "../collection.json",
-      "type": "application/json",
-      "title": "Simulated NISAR"
-    },
-    {
-      "rel": "collection",
-      "href": "../collection.json",
-      "type": "application/json",
-      "title": "Simulated NISAR"
-    },
-    {
-      "rel": "parent",
-      "href": "../collection.json",
-      "type": "application/json",
-      "title": "Simulated NISAR"
+      "rel": "self",
+      "href": "/Users/emiletenezakis/devseed/nisar-sim/winnip_31604_12061_004_120717_L090_CX_07.json",
+      "type": "application/json"
     }
   ],
   "assets": {
@@ -480,14 +466,12 @@
     }
   },
   "bbox": [
-    -98.669,
-    49.343,
-    -97.683,
-    49.991
+    -97.9093,
+    49.3426,
+    -98.4496,
+    49.9867
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
-    "https://stac-extensions.github.io/sat/v1.0.0/schema.json"
-  ],
-  "collection": "nisar-sim"
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ]
 }

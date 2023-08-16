@@ -53,8 +53,14 @@ def create_nisarsim_command(cli: Group) -> Command:
         type=click.Choice(["129", "138", "143"]),
         help="set of numbers indicating the item's nmode ('129','138','143')",
     )
+    @click.option(
+        "--sat-extension",
+        default=False,
+        type=bool,
+        help="Whether to include the SAT extension. Requires that the HDF5 file is present in `product_path`.",
+    )
     def create_item_command(
-        source: str, destination: str, dither: str, nmode: str
+        source: str, destination: str, dither: str, nmode: str, sat_extension: bool
     ) -> None:
         """Creates a STAC Item
 
