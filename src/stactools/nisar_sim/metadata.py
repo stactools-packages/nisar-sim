@@ -8,9 +8,6 @@ import h5py
 import numpy as np
 import pystac
 from pystac.extensions.sat import SatExtension
-from pystac.utils import str_to_datetime
-from shapely.geometry import mapping
-from shapely.wkt import loads
 
 T = TypeVar("T", pystac.Item, pystac.Asset)
 
@@ -115,7 +112,7 @@ class Metadata:
         def _get_geometries_from_ann_metadata() -> Tuple[List[float], Dict[str, Any]]:
             # using the A file for geometries. A and B are approximately similar.
 
-            def _get_rounded_coord(k) -> float:
+            def _get_rounded_coord(k: str) -> Any:
                 return np.round(float(self.ann_metadata.metadata_a[k]), 3)
 
             bbox = [

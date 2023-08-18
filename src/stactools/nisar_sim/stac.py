@@ -72,7 +72,8 @@ def create_item(
             D: Dithered without gaps
         nmode (str): set of numbers associated with a specific center frequency,
             bandwidth, and polarization ("129","138","143")
-        sat_extension (bool): Whether to include the SAT extension. Requires that the HDF5 file is present in `product_path`.
+        sat_extension (bool): Whether to include the SAT extension.
+        Requires that the HDF5 file is present in `product_path`.
 
     Returns:
         Item: STAC Item object
@@ -113,6 +114,9 @@ def create_item(
     # SAT extension
     if sat_extension:
         sat = SatExtension.ext(item, add_if_missing=True)
-        fill_sat_properties(sat, h5_data.metadata)
+        if h5_data is not None:
+            fill_sat_properties(sat, h5_data.metadata)
+        else:
+            raise ValueError("HDF5 data not found. Cannot add SAT extension.")
 
     return item
