@@ -117,7 +117,7 @@ class Metadata:
             # using the A file for geometries. A and B are approximately similar. 
             
             def _get_rounded_coord(k) -> float:
-                return np.round(float(self.ann_metadata.metadata_a[k]), 4)
+                return np.round(float(self.ann_metadata.metadata_a[k]), 3)
             
             
             bbox = [_get_rounded_coord(k) for k in ["Approximate_Lower_Left_Longitude", "Approximate_Lower_Left_Latitude", "Approximate_Upper_Right_Longitude", "Approximate_Upper_Right_Latitude"]]
