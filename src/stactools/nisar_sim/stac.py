@@ -59,7 +59,9 @@ def create_collection() -> Collection:
     return collection
 
 
-def create_item(product_path: str, dither: str, nmode: str, sat_extension: bool = False) -> Item:
+def create_item(
+    product_path: str, dither: str, nmode: str, sat_extension: bool = False
+) -> Item:
     """Create a STAC Item
 
     Args:

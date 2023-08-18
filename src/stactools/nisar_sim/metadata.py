@@ -5,12 +5,12 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, TypeVar
 
 import h5py
+import numpy as np
 import pystac
 from pystac.extensions.sat import SatExtension
 from pystac.utils import str_to_datetime
 from shapely.geometry import mapping
 from shapely.wkt import loads
-import numpy as np
 
 T = TypeVar("T", pystac.Item, pystac.Asset)
 
@@ -107,45 +107,89 @@ class AnnotatedMetadata:
 
 class Metadata:
     def __init__(self, href: str, id: str, h5_metadata: Any, ann_metadata: Any) -> None:
-
         self.href = href
         self.base_id = "_".join(id.split("_")[:-2])
         self.h5_metadata = h5_metadata
         self.ann_metadata = ann_metadata
-        
+
         def _get_geometries_from_ann_metadata() -> Tuple[List[float], Dict[str, Any]]:
-            # using the A file for geometries. A and B are approximately similar. 
-            
+            # using the A file for geometries. A and B are approximately similar.
+
             def _get_rounded_coord(k) -> float:
                 return np.round(float(self.ann_metadata.metadata_a[k]), 3)
-            
-            
-            bbox = [_get_rounded_coord(k) for k in ["Approximate_Lower_Left_Longitude", "Approximate_Lower_Left_Latitude", "Approximate_Upper_Right_Longitude", "Approximate_Upper_Right_Latitude"]]
-            
-            polygon_coords = [
-                [_get_rounded_coord(k) for k in ["Approximate_Upper_Left_Longitude", "Approximate_Upper_Left_Latitude"]],
-                [_get_rounded_coord(k) for k in ["Approximate_Upper_Right_Longitude", "Approximate_Upper_Right_Latitude"]],
-                [_get_rounded_coord(k) for k in ["Approximate_Lower_Left_Longitude", "Approximate_Lower_Left_Latitude"]],
-                [_get_rounded_coord(k) for k in ["Approximate_Lower_Right_Longitude", "Approximate_Lower_Right_Latitude"]],
-                [_get_rounded_coord(k) for k in ["Approximate_Upper_Left_Longitude", "Approximate_Upper_Left_Latitude"]],                
+
+            bbox = [
+                _get_rounded_coord(k)
+                for k in [
+                    "Approximate_Lower_Left_Longitude",
+                    "Approximate_Lower_Left_Latitude",
+                    "Approximate_Upper_Right_Longitude",
+                    "Approximate_Upper_Right_Latitude",
+                ]
             ]
-            
-            geometry = {'type': 'Polygon', 'coordinates': [polygon_coords]}
+
+            polygon_coords = [
+                [
+                    _get_rounded_coord(k)
+                    for k in [
+                        "Approximate_Upper_Left_Longitude",
+                        "Approximate_Upper_Left_Latitude",
+                    ]
+                ],
+                [
+                    _get_rounded_coord(k)
+                    for k in [
+                        "Approximate_Upper_Right_Longitude",
+                        "Approximate_Upper_Right_Latitude",
+                    ]
+                ],
+                [
+                    _get_rounded_coord(k)
+                    for k in [
+                        "Approximate_Lower_Left_Longitude",
+                        "Approximate_Lower_Left_Latitude",
+                    ]
+                ],
+                [
+                    _get_rounded_coord(k)
+                    for k in [
+                        "Approximate_Lower_Right_Longitude",
+                        "Approximate_Lower_Right_Latitude",
+                    ]
+                ],
+                [
+                    _get_rounded_coord(k)
+                    for k in [
+                        "Approximate_Upper_Left_Longitude",
+                        "Approximate_Upper_Left_Latitude",
+                    ]
+                ],
+            ]
+
+            geometry = {"type": "Polygon", "coordinates": [polygon_coords]}
             return (bbox, geometry)
-        
+
         self.bbox, self.geometry = _get_geometries_from_ann_metadata()
 
     @property
     def start_datetime(self) -> datetime:
-        return datetime.strptime(self.ann_metadata.metadata_a['Start_Time_of_Acquisition'], "%d-%b-%Y %H:%M:%S %Z")
-        
+        return datetime.strptime(
+            self.ann_metadata.metadata_a["Start_Time_of_Acquisition"],
+            "%d-%b-%Y %H:%M:%S %Z",
+        )
+
     @property
     def end_datetime(self) -> datetime:
-        return datetime.strptime(self.ann_metadata.metadata_a['Stop_Time_of_Acquisition'], "%d-%b-%Y %H:%M:%S %Z")
-        
+        return datetime.strptime(
+            self.ann_metadata.metadata_a["Stop_Time_of_Acquisition"],
+            "%d-%b-%Y %H:%M:%S %Z",
+        )
+
     @property
     def get_datetime(self) -> datetime:
-        return datetime.strptime(self.ann_metadata.metadata_a['Date_of_Acquisition'], "%d-%b-%Y %H:%M:%S %Z")
+        return datetime.strptime(
+            self.ann_metadata.metadata_a["Date_of_Acquisition"], "%d-%b-%Y %H:%M:%S %Z"
+        )
 
     @property
     def inventory(self) -> List[str]:
