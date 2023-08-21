@@ -13,8 +13,7 @@ number as needed.
 
 - Initial package setup
 - Collection creation
-- Item creation
-- Reading values from h5py metadata
+- Item creation, for now omitting the SAT extension and avoiding reading the h5py metadata.
 - Collection and item examples
 - Tests against item and collection generation
 
