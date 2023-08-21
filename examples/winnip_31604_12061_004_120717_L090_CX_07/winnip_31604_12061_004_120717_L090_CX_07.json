@@ -11,23 +11,23 @@
     "coordinates": [
       [
         [
-          -98.6699,
+          -98.67,
           49.846
         ],
         [
-          -98.4496,
-          49.9867
+          -97.909,
+          49.343
         ],
         [
-          -97.9093,
-          49.3426
+          -97.689,
+          49.482
         ],
         [
-          -97.6891,
-          49.4819
+          -98.45,
+          49.987
         ],
         [
-          -98.6699,
+          -98.67,
           49.846
         ]
       ]
@@ -36,7 +36,7 @@
   "links": [
     {
       "rel": "self",
-      "href": "/Users/emiletenezakis/devseed/nisar-sim/winnip_31604_12061_004_120717_L090_CX_07.json",
+      "href": "/Users/emiletenezakis/devseed/nisar-sim-maap/nisar-sim/.json",
       "type": "application/json"
     }
   ],
@@ -466,10 +466,10 @@
     }
   },
   "bbox": [
-    -97.9093,
-    49.3426,
-    -98.4496,
-    49.9867
+    -97.909,
+    49.343,
+    -98.45,
+    49.987
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v1.1.0/schema.json"

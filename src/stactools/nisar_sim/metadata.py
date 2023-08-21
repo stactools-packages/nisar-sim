@@ -136,13 +136,6 @@ class Metadata:
                 [
                     _get_rounded_coord(k)
                     for k in [
-                        "Approximate_Upper_Right_Longitude",
-                        "Approximate_Upper_Right_Latitude",
-                    ]
-                ],
-                [
-                    _get_rounded_coord(k)
-                    for k in [
                         "Approximate_Lower_Left_Longitude",
                         "Approximate_Lower_Left_Latitude",
                     ]
@@ -152,6 +145,13 @@ class Metadata:
                     for k in [
                         "Approximate_Lower_Right_Longitude",
                         "Approximate_Lower_Right_Latitude",
+                    ]
+                ],
+                [
+                    _get_rounded_coord(k)
+                    for k in [
+                        "Approximate_Upper_Right_Longitude",
+                        "Approximate_Upper_Right_Latitude",
                     ]
                 ],
                 [
