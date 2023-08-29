@@ -4,6 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, TypeVar
 
+import fsspec
 import h5py
 import pystac
 from pystac.extensions.sat import SatExtension
@@ -65,7 +66,8 @@ class HDF5Metadata:
         self.metadata = self.from_file(self.href)
 
     def from_file(self, href: str) -> Any:
-        return h5py.File(href, "r")
+        fs = fsspec.open(href)
+        return h5py.File(fs.open(), "r")
 
 
 class AnnotatedMetadata:
@@ -87,7 +89,7 @@ class AnnotatedMetadata:
             DEM Datum                                         (&)         = WGS-84
             becomes {"DEM_Datum": "WGS-84"}
         """
-        with open(ann_href, "r") as f:
+        with fsspec.open(ann_href, "r") as f:
             lines = f.readlines()
             data = {}
             for line in lines:
