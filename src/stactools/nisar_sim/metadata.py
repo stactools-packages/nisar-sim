@@ -1,8 +1,7 @@
 import os
 import re
 from datetime import datetime
-from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple, TypeVar
+from typing import Any, Dict, List, Tuple, TypeVar
 
 import fsspec
 import h5py
@@ -43,18 +42,14 @@ class MetadataLinks:
     def _href_modifier(
         self,
         href: str,
-        extension: Optional[str] = None,
-        nmode: Optional[str] = None,
+        extension: str,
+        nmode: str,
     ) -> str:
         _id = self._replace_dither(self.id, self.dither)
-        path = Path(href) / _id
-
-        if extension:
-            path = path.with_suffix(extension)
-        if nmode is not None:
-            path_parts = str(path).split("_")
-            path_parts.insert(-1, nmode)
-            path = Path("_".join(path_parts))
+        path = href.strip("/") + "/" + _id + "." + extension.lstrip(".")
+        path_parts = str(path).split("_")
+        path_parts.insert(-1, nmode)
+        path = "_".join(path_parts)
         return str(path)
 
 
