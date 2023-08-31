@@ -11,14 +11,13 @@ from stactools.nisar_sim import stac
 
 root = Path(__file__).parents[1]
 examples = root / "examples"
-nisar_sim_data = root / "tests" / "data-files"
 
 shutil.rmtree(examples, ignore_errors=True)
 
 stac_collection = stac.create_collection()
 
 item1 = stac.create_item(
-    str(nisar_sim_data / "winnip_31604_12061_004_120717_L090_CX_07/"),
+    "https://downloaduav.jpl.nasa.gov/Release2v/winnip_31604_12061_004_120717_L090_CX_07/",
     dither="X",
     nmode="129",
 )

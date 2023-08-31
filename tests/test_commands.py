@@ -39,12 +39,11 @@ class CommandsTest:
 
             collection.validate()
 
-    def test_create_item(self) -> None:
+    def test_create_item(self, example_href: str) -> None:
         with TemporaryDirectory() as tmp_dir:
             # Run your custom create-item command and validate
 
             # Example:
-            inpath = "tests/data-files/winnip_31604_12061_004_120717_L090_CX_07"
             destination = os.path.join(tmp_dir, "item.json")
             dither = "X"
             nmode = "129"
@@ -53,7 +52,7 @@ class CommandsTest:
                 [
                     "nisarsim",
                     "create-item",
-                    f"{inpath}",
+                    example_href,
                     f"{destination}",
                     f"--dither {dither}",
                     f"--nmode {nmode}",

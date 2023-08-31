@@ -59,7 +59,7 @@ def create_collection() -> Collection:
     return collection
 
 
-def create_item(product_path: str, dither: str, nmode: str) -> Item:
+def create_item(product_href: str, dither: str, nmode: str) -> Item:
     """Create a STAC Item
 
     Args:
@@ -74,10 +74,10 @@ def create_item(product_path: str, dither: str, nmode: str) -> Item:
     Returns:
         Item: STAC Item object
     """
-    metalinks = MetadataLinks(product_path, dither, nmode)
+    metalinks = MetadataLinks(product_href, dither, nmode)
     h5_data = HDF5Metadata(metalinks.h5_href)
     ann_data = AnnotatedMetadata(metalinks.ann_a_href, metalinks.ann_b_href)
-    metadata = Metadata(product_path, metalinks.id, h5_data, ann_data)
+    metadata = Metadata(product_href, metalinks.id, h5_data, ann_data)
 
     item = Item(
         id=metalinks.id,
