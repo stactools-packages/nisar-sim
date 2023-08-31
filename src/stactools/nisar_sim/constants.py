@@ -55,3 +55,8 @@ NISAR_SIM_EPSG = 4326
 
 NMODE = ["129", "138", "143"]  # center frequency, bandwidth, and polarization
 XTALK = ["X", "C"]
+
+NISAR_SIM_EXAMPLE_HREF = (
+    "https://downloaduav.jpl.nasa.gov/Release2v/"
+    "winnip_31604_12061_004_120717_L090_CX_07/"
+)

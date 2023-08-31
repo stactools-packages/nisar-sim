@@ -31,6 +31,8 @@ Command line functions
 
 ```shell
 stac nisarsim create-collection <destination/>
+
+stac nisarsim create-collection example-collection.json
 ```
 
 **Dither**: Indicates whether the data has been dithered or not:
@@ -53,7 +55,7 @@ stac nisarsim create-item <source/> <destination/> --dither <dither> --nmode <nm
 
 stac nisarsim create-item
 https://downloaduav.jpl.nasa.gov/Release2v/winnip_31604_12061_004_120717_L090_CX_07/
-examples/ --dither X --nmode 129
+example.json --dither X --nmode 129
 ```
 
 Use `stac nisarsim --help` to see all subcommands and options.
