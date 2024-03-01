@@ -1,9 +1,8 @@
 from datetime import datetime
 from typing import Optional
 
-from pystac import Extent, Link, Provider
+from pystac import Extent, Link, Provider, SpatialExtent, TemporalExtent
 from pystac import ProviderRole as PR
-from pystac import SpatialExtent, TemporalExtent
 from pystac.utils import str_to_datetime
 
 NISAR_SIM_COLLECTION_START: Optional[datetime] = str_to_datetime("2008-01-01T00:00:00Z")
@@ -24,7 +23,12 @@ NISAR_SIM_PROVIDERS = [
     ),
 ]
 NISAR_SIM_KEYWORDS = ["SAR", "NISAR", "Simulated"]
-NISAR_SIM_DESCRIPTION = "Simulated NISAR products are specialized UAVSAR PolSAR products. They include files described in the UAVSAR PolSAR Data Format but with different number of MLC looks and GRD grid; as well as additional NISAR RSLC HDF5 files, radiometric terrain correction layer, and flat earth incidence angle files."  # noqa
+NISAR_SIM_DESCRIPTION = (
+    "Simulated NISAR products are specialized UAVSAR PolSAR products. "
+    "They include files described in the UAVSAR PolSAR Data Format but with different "
+    "number of MLC looks and GRD grid; as well as additional NISAR RSLC HDF5 files, "
+    "radiometric terrain correction layer, and flat earth incidence angle files."
+)
 
 NISAR_SIM_LINKS = [
     Link(
@@ -53,10 +57,47 @@ NISAR_SIM_PLATFORMS = ["NISAR"]
 NISAR_SIM_INSTRUMENTS = ["L-band"]
 NISAR_SIM_EPSG = 4326
 
-NMODE = ["129", "138", "143"]  # center frequency, bandwidth, and polarization
-XTALK = ["X", "C"]
+NISAR_S3_LOCATION = "s3://sds-n-cumulus-prod-nisar-sample-data"
 
-NISAR_SIM_EXAMPLE_HREF = (
-    "https://downloaduav.jpl.nasa.gov/Release2v/"
-    "winnip_31604_12061_004_120717_L090_CX_07/"
-)
+NISAR_PRODUCTS = {
+    "RRSD": {
+        "title": "Unfocused raw SAR data",
+        "description": "Level 0 Unfocused raw SAR data",
+    },
+    "RSLC": {
+        "title": "Focused SAR image in range-doppler coordinates (zero-doppler steered)",
+        "description": "Level 1 Focused SAR image in range-doppler coordinates (zero-doppler steered)",
+    },
+    "RIFG": {
+        "title": "Phase-wrapped interferogram in range-doppler coordinates (zero-doppler steered)",
+        "description": "Level 1 Phase-wrapped interferogram in range-doppler coordinates (zero-doppler steered)",
+    },
+    "RUNW": {
+        "title": "Phase-unwrapped interferogram in range-doppler coordinates (zero-doppler steered)",
+        "description": "Level 1 Phase-unwrapped interferogram in range-doppler coordinates (zero-doppler steered)",
+    },
+    "ROFF": {
+        "title": "Pixel offsets in range-doppler coordinates (zero-doppler steered)",
+        "description": "Level 1 Pixel offsets in range-doppler coordinates (zero-doppler steered)",
+    },
+    "GSLC": {
+        "title": "Focused SAR image in geocoded coordinates",
+        "description": "Level 2 Focused SAR image in geocoded coordinates",
+    },
+    "GUNW": {
+        "title": "Phase-unwrapped interferogram in geocoded coordinates",
+        "description": "Level 2 Phase-unwrapped interferogram in geocoded coordinates",
+    },
+    "GOFF": {
+        "title": "Pixel offsets in geocoded coordinates",
+        "description": "Level 2 Pixel offsets in geocoded coordinates",
+    },
+    "GCOV": {
+        "title": "SAR covariance product in geocoded coordinates",
+        "description": "Level 2 SAR covariance product in geocoded coordinates",
+    },
+    "SME2": {
+        "title": "Global Soil Moisture Product",
+        "description": "Level 3 Global Soil Moisture Product",
+    },
+}

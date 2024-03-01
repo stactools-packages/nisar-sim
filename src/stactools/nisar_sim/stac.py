@@ -1,20 +1,11 @@
 import logging
-import re
 
-from pystac import Collection, Item, Summaries
+from pystac import Asset, Collection, Item, MediaType, Summaries
 from pystac.extensions.item_assets import ItemAssetsExtension
 from pystac.extensions.projection import ProjectionExtension
 from pystac.extensions.sat import SatExtension
-
 from stactools.nisar_sim import constants as c
-from stactools.nisar_sim.metadata import (
-    AnnotatedMetadata,
-    HDF5Metadata,
-    Metadata,
-    MetadataLinks,
-    fill_sat_properties,
-)
-from stactools.nisar_sim.nisar_assets import get_assets
+from stactools.nisar_sim.metadata import Metadata, filename_convention, fill_item_assets
 
 logger = logging.getLogger(__name__)
 
@@ -22,11 +13,11 @@ logger = logging.getLogger(__name__)
 def create_collection() -> Collection:
     """Create a STAC Collection
 
-    This function includes logic to extract all relevant metadata from
-    an asset describing the STAC collection and/or metadata coded into an
-    accompanying constants.py file.
-
-    See `Collection<https://pystac.readthedocs.io/en/latest/api.html#collection>`_.
+    See `the STAC specification
+    <https://github.com/radiantearth/stac-spec/blob/master/collection-spec/collection-spec.md>`_
+    for information about collection fields, and
+    `Collection<https://pystac.readthedocs.io/en/latest/api.html#collection>`_
+    for information about the PySTAC class.
 
     Returns:
         Collection: STAC Collection object
@@ -46,69 +37,75 @@ def create_collection() -> Collection:
             ItemAssetsExtension.get_schema_uri(),
             ProjectionExtension.get_schema_uri(),
             SatExtension.get_schema_uri(),
+            "https://stac-extensions.github.io/alternate-assets/v1.1.0/schema.json",
         ],
         keywords=c.NISAR_SIM_KEYWORDS,
     )
 
-    # Links
     collection.add_links(c.NISAR_SIM_LINKS)
 
-    assets = ItemAssetsExtension.ext(collection, add_if_missing=True)
-    assets.item_assets = get_assets(collection=True)
+    collection_assets = ItemAssetsExtension.ext(collection, add_if_missing=True)
+    collection_assets.item_assets = (
+        fill_item_assets()
+    )  # TODO: Pass Collection ID to grab specific assets
 
     return collection
 
 
-def create_item(product_href: str, dither: str, nmode: str) -> Item:
+def create_item(source: str) -> Item:
     """Create a STAC Item
 
+    See `the STAC specification
+    <https://github.com/radiantearth/stac-spec/blob/master/item-spec/item-spec.md>`_
+    for information about an item's fields, and
+    `Item<https://pystac.readthedocs.io/en/latest/api/pystac.html#pystac.Item>`_ for
+    information on the PySTAC class.
+
     Args:
-        product_href (str): An HREF data directory pointing to a flight
-        dither (str): Type of dither ("X","G","D")
-            X: No Dither
-            G: Dither with gaps
-            D: Dithered without gaps
-        nmode (str): set of numbers associated with a specific center frequency,
-            bandwidth, and polarization ("129","138","143")
+        source (str): An HREF data directory pointing to a flight
 
     Returns:
         Item: STAC Item object
     """
-    metalinks = MetadataLinks(product_href, dither, nmode)
-    h5_data = HDF5Metadata(metalinks.h5_href)
-    ann_data = AnnotatedMetadata(metalinks.ann_a_href, metalinks.ann_b_href)
-    metadata = Metadata(product_href, metalinks.id, h5_data, ann_data)
+    _metadata = Metadata(source)
+    product_info = filename_convention(source)
 
     item = Item(
-        id=metalinks.id,
+        id=_metadata.id,
         properties={},
-        geometry=metadata.geometry,
-        bbox=metadata.bbox,
-        datetime=metadata.get_datetime,
-        stac_extensions=[],
+        geometry=_metadata.geometry,
+        bbox=_metadata.bbox,
+        datetime=None,
+        start_datetime=product_info["start_datetime"],
+        end_datetime=product_info["end_datetime"],
+        stac_extensions=[
+            "https://stac-extensions.github.io/alternate-assets/v1.1.0/schema.json",
+        ],
     )
 
+    item.add_asset(
+        product_info["type"],
+        Asset(
+            title=product_info["title"],
+            media_type=MediaType.HDF5,
+            description=product_info["description"],
+            roles=["data"],
+            href=source,
+            extra_fields={
+                "alternate": {
+                    "href": source.replace(
+                        "https://nisar.asf.alaska.edu/NISAR-SAMPLE-DATA",
+                        c.NISAR_S3_LOCATION,
+                    ).replace("/workspaces/nisar-sim/tests/data", c.NISAR_S3_LOCATION),
+                },
+            },
+        ),
+    )
     proj_attrs = ProjectionExtension.ext(item, add_if_missing=True)
-    proj_attrs.epsg = 4326
+    proj_attrs.epsg = c.NISAR_SIM_EPSG
 
-    get_xtalk = re.search(r"_(\w)\w_", metalinks.id)
-    xtalk = get_xtalk[1] if get_xtalk else "C"
-
-    expected_assets = get_assets(dither=dither, xtalk=xtalk)
-
-    # fmt: off
-    def asset_name(name: str) -> str:
-        versionless = name[:name.rfind("_")] + name[name.find("."):]
-        return versionless[len(metadata.base_id):].lstrip("_")
-    # fmt: on
-
-    for _file in metadata.inventory:
-        if asset_def := expected_assets.get(asset_name(_file)):
-            asset = asset_def.create_asset(_file)
-            item.add_asset(asset_name(_file), asset)
-
-    # SAT extension
     sat = SatExtension.ext(item, add_if_missing=True)
-    fill_sat_properties(sat, h5_data.metadata)
+    # sat.absolute_orbit = _metadata.absolute_orbit # TODO: current value zero
+    sat.orbit_state = product_info["orbit_state"]
 
     return item
