@@ -243,7 +243,7 @@
   ],
   "assets": {
     "RRSD": {
-      "href": "../../tests/data/L0B/ALOS1_Rosamond_20081012/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.h5",
+      "href": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR-SAMPLE-DATA/L0B/ALOS1_Rosamond_20081012/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.h5",
       "type": "application/x-hdf5",
       "title": "Radar Raw Signal Data and Calibration",
       "description": "Level 0 Unfocused raw SAR data",
