@@ -57,47 +57,49 @@ NISAR_SIM_PLATFORMS = ["NISAR"]
 NISAR_SIM_INSTRUMENTS = ["L-band"]
 NISAR_SIM_EPSG = 4326
 
-NISAR_S3_LOCATION = "s3://sds-n-cumulus-prod-nisar-sample-data"
+NISAR_S3_LOCATION = "s3://sds-n-cumulus-prod-nisar-sample-data/"
+
+
+class NISARProduct:
+    def __init__(self, title: str, description: str) -> None:
+        self.title = title
+        self.description = description
+
 
 NISAR_PRODUCTS = {
-    "RRSD": {
-        "title": "Unfocused raw SAR data",
-        "description": "Level 0 Unfocused raw SAR data",
-    },
-    "RSLC": {
-        "title": "Focused SAR image in range-doppler coordinates (zero-doppler steered)",
-        "description": "Level 1 Focused SAR image in range-doppler coordinates (zero-doppler steered)",
-    },
-    "RIFG": {
-        "title": "Phase-wrapped interferogram in range-doppler coordinates (zero-doppler steered)",
-        "description": "Level 1 Phase-wrapped interferogram in range-doppler coordinates (zero-doppler steered)",
-    },
-    "RUNW": {
-        "title": "Phase-unwrapped interferogram in range-doppler coordinates (zero-doppler steered)",
-        "description": "Level 1 Phase-unwrapped interferogram in range-doppler coordinates (zero-doppler steered)",
-    },
-    "ROFF": {
-        "title": "Pixel offsets in range-doppler coordinates (zero-doppler steered)",
-        "description": "Level 1 Pixel offsets in range-doppler coordinates (zero-doppler steered)",
-    },
-    "GSLC": {
-        "title": "Focused SAR image in geocoded coordinates",
-        "description": "Level 2 Focused SAR image in geocoded coordinates",
-    },
-    "GUNW": {
-        "title": "Phase-unwrapped interferogram in geocoded coordinates",
-        "description": "Level 2 Phase-unwrapped interferogram in geocoded coordinates",
-    },
-    "GOFF": {
-        "title": "Pixel offsets in geocoded coordinates",
-        "description": "Level 2 Pixel offsets in geocoded coordinates",
-    },
-    "GCOV": {
-        "title": "SAR covariance product in geocoded coordinates",
-        "description": "Level 2 SAR covariance product in geocoded coordinates",
-    },
-    "SME2": {
-        "title": "Global Soil Moisture Product",
-        "description": "Level 3 Global Soil Moisture Product",
-    },
+    "RRSD": NISARProduct(
+        "Radar Raw Signal Data and Calibration", "Level 0 Unfocused raw SAR data"
+    ),
+    "RSLC": NISARProduct(
+        "Range Doppler Single Look Complex",
+        "Level 1 Focused SAR image in range-doppler coordinates (zero-doppler steered)",
+    ),
+    "RIFG": NISARProduct(
+        "Range Doppler Wrapped Interferogram",
+        "Level 1 Phase-wrapped interferogram in range-doppler coordinates (zero-doppler steered)",
+    ),
+    "RUNW": NISARProduct(
+        "Range Doppler UnWrapped Interferogram",
+        "Level 1 Phase-unwrapped interferogram in range-doppler coordinates (zero-doppler steered)",
+    ),
+    "ROFF": NISARProduct(
+        "Range Doppler Pixel Offsets",
+        "Level 1 Pixel offsets in range-doppler coordinates (zero-doppler steered)",
+    ),
+    "GSLC": NISARProduct(
+        "Geocoded Single Look Complex",
+        "Level 2 Focused SAR image in geocoded coordinates",
+    ),
+    "GUNW": NISARProduct(
+        "Geocoded Unwrapped Interferogram",
+        "Level 2 Phase-unwrapped interferogram in geocoded coordinates",
+    ),
+    "GOFF": NISARProduct(
+        "Geocoded Pixel Offsets", "Level 2 Pixel offsets in geocoded coordinates"
+    ),
+    "GCOV": NISARProduct(
+        "Geocoded Polarimetric Covariance",
+        "Level 2 SAR covariance product in geocoded coordinates",
+    ),
+    "SME2": NISARProduct("Soil Moisture", "Level 3 Global Soil Moisture Product"),
 }

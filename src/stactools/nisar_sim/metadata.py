@@ -25,13 +25,15 @@ class Metadata:
     def get_metadata(self, href: str) -> None:
         with fsspec.open(href, "rb") as f:
             with h5py.File(f, "r") as h5_data:
+                if "SME2" in self.id:
+                    identification = h5_data["identification"]
+                else:
+                    identification = h5_data["science"]["LSAR"]["identification"]
 
                 def get_geometry(
-                    h5_data: h5py.File,
+                    identification: h5py._hl.group.Group,
                 ) -> Tuple[Dict[str, Any], List[float]]:
-                    h5_polygon = h5_data["science"]["LSAR"]["identification"].get(
-                        "boundingPolygon"
-                    )
+                    h5_polygon = identification.get("boundingPolygon")
                     if not h5_polygon:
                         raise MetadataException("Unable to locate boundingPolygon")
                     polygon = loads(h5_polygon[()])
@@ -40,12 +42,10 @@ class Metadata:
 
                     return geometry, bbox
 
-                self.geometry, self.bbox = get_geometry(h5_data)
+                self.geometry, self.bbox = get_geometry(identification)
 
                 # Satellite Extension (Sat)
-                if absolute_orbit := h5_data["science"]["LSAR"]["identification"].get(
-                    "absoluteOrbitNumber"
-                ):
+                if absolute_orbit := identification.get("absoluteOrbitNumber"):
                     self.absolute_orbit = int(absolute_orbit[()])
 
 
@@ -76,8 +76,8 @@ def filename_convention(source: str) -> Dict[str, Any]:
 
     additional_info = {
         "type": product_type,
-        "title": c.NISAR_PRODUCTS.get(product_type, {}).get("title"),
-        "description": c.NISAR_PRODUCTS.get(product_type, {}).get("description"),
+        "title": c.NISAR_PRODUCTS.get(product_type, c.NISARProduct).title,
+        "description": c.NISAR_PRODUCTS.get(product_type, c.NISARProduct).description,
         "start_datetime": datetime.strptime(matches["start_datetime"], date_format),
         "end_datetime": datetime.strptime(matches["end_datetime"], date_format),
         "orbit_state": OrbitState.ASCENDING
@@ -93,8 +93,8 @@ def fill_item_assets() -> Dict[str, AssetDefinition]:
     for product in c.NISAR_PRODUCTS:
         assets[product] = AssetDefinition(
             {
-                "title": c.NISAR_PRODUCTS[product]["title"],
-                "description": c.NISAR_PRODUCTS[product]["description"],
+                "title": c.NISAR_PRODUCTS[product].title,
+                "description": c.NISAR_PRODUCTS[product].description,
                 "type": MediaType.HDF5,
                 "role": ["data"],
             }

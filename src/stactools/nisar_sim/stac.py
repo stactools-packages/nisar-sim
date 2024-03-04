@@ -68,7 +68,7 @@ def create_item(source: str) -> Item:
         Item: STAC Item object
     """
     _metadata = Metadata(source)
-    product_info = filename_convention(source)
+    prod_info = filename_convention(source)
 
     item = Item(
         id=_metadata.id,
@@ -76,27 +76,32 @@ def create_item(source: str) -> Item:
         geometry=_metadata.geometry,
         bbox=_metadata.bbox,
         datetime=None,
-        start_datetime=product_info["start_datetime"],
-        end_datetime=product_info["end_datetime"],
+        start_datetime=prod_info["start_datetime"],
+        end_datetime=prod_info["end_datetime"],
         stac_extensions=[
             "https://stac-extensions.github.io/alternate-assets/v1.1.0/schema.json",
         ],
     )
 
     item.add_asset(
-        product_info["type"],
+        prod_info["type"],
         Asset(
-            title=product_info["title"],
+            title=prod_info["title"],
             media_type=MediaType.HDF5,
-            description=product_info["description"],
+            description=prod_info["description"],
             roles=["data"],
             href=source,
             extra_fields={
                 "alternate": {
-                    "href": source.replace(
-                        "https://nisar.asf.alaska.edu/NISAR-SAMPLE-DATA",
-                        c.NISAR_S3_LOCATION,
-                    ).replace("/workspaces/nisar-sim/tests/data", c.NISAR_S3_LOCATION),
+                    "href": (
+                        c.NISAR_S3_LOCATION
+                        + (
+                            "L0B" + source.split("L0B", 1)[-1]
+                            if "RRSD" in source
+                            else prod_info["type"]
+                            + source.split(prod_info["type"], 1)[-1]
+                        )
+                    )
                 },
             },
         ),
@@ -106,6 +111,6 @@ def create_item(source: str) -> Item:
 
     sat = SatExtension.ext(item, add_if_missing=True)
     # sat.absolute_orbit = _metadata.absolute_orbit # TODO: current value zero
-    sat.orbit_state = product_info["orbit_state"]
+    sat.orbit_state = prod_info["orbit_state"]
 
     return item
