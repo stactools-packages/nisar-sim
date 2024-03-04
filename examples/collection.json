@@ -36,7 +36,7 @@
   ],
   "item_assets": {
     "RRSD": {
-      "title": "Unfocused raw SAR data",
+      "title": "Radar Raw Signal Data and Calibration",
       "description": "Level 0 Unfocused raw SAR data",
       "type": "application/x-hdf5",
       "role": [
@@ -44,7 +44,7 @@
       ]
     },
     "RSLC": {
-      "title": "Focused SAR image in range-doppler coordinates (zero-doppler steered)",
+      "title": "Range Doppler Single Look Complex",
       "description": "Level 1 Focused SAR image in range-doppler coordinates (zero-doppler steered)",
       "type": "application/x-hdf5",
       "role": [
@@ -52,7 +52,7 @@
       ]
     },
     "RIFG": {
-      "title": "Phase-wrapped interferogram in range-doppler coordinates (zero-doppler steered)",
+      "title": "Range Doppler Wrapped Interferogram",
       "description": "Level 1 Phase-wrapped interferogram in range-doppler coordinates (zero-doppler steered)",
       "type": "application/x-hdf5",
       "role": [
@@ -60,7 +60,7 @@
       ]
     },
     "RUNW": {
-      "title": "Phase-unwrapped interferogram in range-doppler coordinates (zero-doppler steered)",
+      "title": "Range Doppler UnWrapped Interferogram",
       "description": "Level 1 Phase-unwrapped interferogram in range-doppler coordinates (zero-doppler steered)",
       "type": "application/x-hdf5",
       "role": [
@@ -68,7 +68,7 @@
       ]
     },
     "ROFF": {
-      "title": "Pixel offsets in range-doppler coordinates (zero-doppler steered)",
+      "title": "Range Doppler Pixel Offsets",
       "description": "Level 1 Pixel offsets in range-doppler coordinates (zero-doppler steered)",
       "type": "application/x-hdf5",
       "role": [
@@ -76,7 +76,7 @@
       ]
     },
     "GSLC": {
-      "title": "Focused SAR image in geocoded coordinates",
+      "title": "Geocoded Single Look Complex",
       "description": "Level 2 Focused SAR image in geocoded coordinates",
       "type": "application/x-hdf5",
       "role": [
@@ -84,7 +84,7 @@
       ]
     },
     "GUNW": {
-      "title": "Phase-unwrapped interferogram in geocoded coordinates",
+      "title": "Geocoded Unwrapped Interferogram",
       "description": "Level 2 Phase-unwrapped interferogram in geocoded coordinates",
       "type": "application/x-hdf5",
       "role": [
@@ -92,7 +92,7 @@
       ]
     },
     "GOFF": {
-      "title": "Pixel offsets in geocoded coordinates",
+      "title": "Geocoded Pixel Offsets",
       "description": "Level 2 Pixel offsets in geocoded coordinates",
       "type": "application/x-hdf5",
       "role": [
@@ -100,7 +100,7 @@
       ]
     },
     "GCOV": {
-      "title": "SAR covariance product in geocoded coordinates",
+      "title": "Geocoded Polarimetric Covariance",
       "description": "Level 2 SAR covariance product in geocoded coordinates",
       "type": "application/x-hdf5",
       "role": [
@@ -108,7 +108,7 @@
       ]
     },
     "SME2": {
-      "title": "Global Soil Moisture Product",
+      "title": "Soil Moisture",
       "description": "Level 3 Global Soil Moisture Product",
       "type": "application/x-hdf5",
       "role": [
