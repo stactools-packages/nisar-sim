@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "nisar-sim",
   "stac_version": "1.0.0",
-  "description": "Simulated NISAR products are specialized UAVSAR PolSAR products. They include files described in the UAVSAR PolSAR Data Format but with different number of MLC looks and GRD grid; as well as additional NISAR RSLC HDF5 files, radiometric terrain correction layer, and flat earth incidence angle files.",
+  "description": "A set of sample products using JAXA ALOS-1 PALSAR data as a surrogate for NISAR. The sample covers the full suite of planned products, from Level 0 raw data (in NISAR format) to Level 1 and Level 2. These data cover a smaller area than a NISAR frame, but the format and metadata content is fully compatible with the data NISAR will produce after entering the science phase",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "https://uavsar.jpl.nasa.gov/science/documents/nisar-sample-products.html",
       "type": "application/html",
       "title": "Simulated NISAR Products documentation",
-      "description": "Simulated NISAR products are generated from UAVSAR data to emulate NISAR data characteristics in order to help users test their algorithms and get a sense of the quality of future NISAR products. Click on the links below to go to the desired section."
+      "description": "A set of sample products using JAXA ALOS-1 PALSAR data as a surrogate for NISAR. The sample covers the full suite of planned products, from Level 0 raw data (in NISAR format) to Level 1 and Level 2. These data cover a smaller area than a NISAR frame, but the format and metadata content is fully compatible with the data NISAR will produce after entering the science phase"
     },
     {
       "rel": "license",
