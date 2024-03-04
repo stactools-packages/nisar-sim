@@ -1,6 +1,6 @@
 [project]
 name = "stactools-nisar-sim"
-version = "2.0.0"
+version = "1.0.0"
 description = "This is a stactools package for Simulated NISAR data"
 readme = "README.md"
 authors = [

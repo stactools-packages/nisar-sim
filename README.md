@@ -7,13 +7,14 @@
 - STAC extensions used:
   - [proj](https://github.com/stac-extensions/projection/)
   - [sat](https://github.com/stac-extensions/sat)
+  - [alternative-assets](https://stac-extensions.github.io/alternate-assets/v1.1.0/schema.json)
 
 stactools package for use with the simulated NISAR products.
 
 ## STAC Examples
 
 - [Collection](examples/collection.json)
-- [Item](examples/winnip_31604_12061_004_120717_L090_CX_07/winnip_31604_12061_004_120717_L090_CX_07.json)
+- [Item](/examples/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.json)
 
 ## Installation
 
@@ -34,7 +35,7 @@ stac nisarsim create-collection example-collection.json
 ```shell
 stac nisarsim create-item <source/> <destination/>
 
-stac nisarsim create-item tests/data/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.h5 examples/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.json
+stac nisarsim create-item "https://nisar.asf.earthdatacloud.nasa.gov/NISAR-SAMPLE-DATA/L0B/ALOS1_Rosamond_20081012/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.h5" examples/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.json
 ```
 
 Use `stac nisarsim --help` to see all subcommands and options.
