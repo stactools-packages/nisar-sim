@@ -1,6 +1,66 @@
+[project]
+name = "stactools-nisar-sim"
+version = "1.0.0"
+description = "This is a stactools package for Simulated NISAR data"
+readme = "README.md"
+authors = [
+    { name = "Jamison French", email = "jamison@developmentseed.org" },
+    { name = "Alex Mandel", email = "alex@developmentseed.org"}
+]
+maintainers = [{ name = "Jamison French", email = "jamison@developmentseed.org" }]
+keywords = ["stactools", "pystac", "catalog", "STAC", "NISAR", "Simulated", "SAR"]
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "stactools>=0.4.0",
+    "h5py>=3.8.0",
+    "s3fs", 
+    "requests"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black~=23.9",
+    "codespell~=2.2",
+    "mypy~=1.5",
+    "pre-commit~=3.4",
+    "pytest-cov~=4.1",
+    "pytest~=7.4",
+    "ruff==0.0.288",
+]
+docs = ["pystac~=1.8", "ipykernel~=6.25", "jinja2~=3.1"]
+
+[project.urls]
+Github = "https://github.com/stactools-packges/nisar-sim"
+Issues = "https://github.com/stactools-packges/nisar-sim/issues"
+
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.isort]
 profile = "black"
+
+[tool.mypy]
+explicit_package_bases = true
+namespace_packages = true
+show_error_codes = true
+strict = true
+mypy_path = "src"
+
+[tool.ruff]
+select = ["E", "F", "I"]
+ignore = [
+    "E501",  # line too long, handled by black
+]

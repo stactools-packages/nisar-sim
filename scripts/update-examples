@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+
+import shutil
+from pathlib import Path
+
+import stactools.nisar_sim.stac
+from pystac import CatalogType
+
+root = Path(__file__).parents[1]
+examples = root / "examples"
+
+collection = stactools.nisar_sim.stac.create_collection()
+item = stactools.nisar_sim.stac.create_item(
+    source=(
+        "https://nisar.asf.earthdatacloud.nasa.gov/NISAR-SAMPLE-DATA/"
+        "L0B/ALOS1_Rosamond_20081012/"
+        "NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.h5"
+    )
+)
+collection.add_item(item)
+collection.normalize_hrefs(str(examples))
+collection.make_all_asset_hrefs_relative()
+if examples.exists():
+    shutil.rmtree(examples)
+    examples.mkdir()
+collection.save(CatalogType.SELF_CONTAINED)

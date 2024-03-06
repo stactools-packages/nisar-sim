@@ -1,23 +1,20 @@
 # stactools-nisar-sim
 
-[![PyPI](https://img.shields.io/pypi/v/stactools-nisar-sim)](https://pypi.org/project/stactools-nisar-sim/)
-
 - Name: nisar-sim
 - Package: `stactools.nisar_sim`
-- [stactools-nisar-sim on PyPI](https://pypi.org/project/stactools-nisar-sim/)
 - Owner: @jjfrench @wildintellect
 - [Dataset homepage](https://uavsar.jpl.nasa.gov/science/documents/nisar-sample-products.html)
 - STAC extensions used:
   - [proj](https://github.com/stac-extensions/projection/)
   - [sat](https://github.com/stac-extensions/sat)
-- [Browse the example in human-readable form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/nisar-sim/main/examples/collection.json)
+  - [alternative-assets](https://stac-extensions.github.io/alternate-assets/v1.1.0/schema.json)
 
 stactools package for use with the simulated NISAR products.
 
 ## STAC Examples
 
 - [Collection](examples/collection.json)
-- [Item](examples/winnip_31604_12061_004_120717_L090_CX_07/winnip_31604_12061_004_120717_L090_CX_07.json)
+- [Item](/examples/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.json)
 
 ## Installation
 
@@ -35,27 +32,10 @@ stac nisarsim create-collection <destination/>
 stac nisarsim create-collection example-collection.json
 ```
 
-**Dither**: Indicates whether the data has been dithered or not:
-
-- "X": not dithered,
-- "G": dithered with gaps,
-- "D": dithered with no gaps.
-
-**Nmode**: NISAR mode, a 3-digit mode number associated a specific center
-  frequency, bandwidth, and polarization.
-
-- "129"
-- "138"
-- "143"
-
-Read more about the _Dither_ and _Nmode_ namings [here](https://uavsar.jpl.nasa.gov/science/documents/nisar-sample-products.html#Product%20Description:~:text=about%20dithered%20products.-,Naming%20Convention,-The%20simulated%20NISAR).
-
 ```shell
-stac nisarsim create-item <source/> <destination/> --dither <dither> --nmode <nmode>
+stac nisarsim create-item <source/> <destination/>
 
-stac nisarsim create-item
-https://downloaduav.jpl.nasa.gov/Release2v/winnip_31604_12061_004_120717_L090_CX_07/
-example.json --dither X --nmode 129
+stac nisarsim create-item "https://nisar.asf.earthdatacloud.nasa.gov/NISAR-SAMPLE-DATA/L0B/ALOS1_Rosamond_20081012/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.h5" examples/NISAR_L0_PR_RRSD_001_005_A_128S_20081012T060910_20081012T060926_P01101_F_J_001.json
 ```
 
 Use `stac nisarsim --help` to see all subcommands and options.
@@ -66,8 +46,7 @@ We use [pre-commit](https://pre-commit.com/) to check any changes.
 To set up your development environment:
 
 ```shell
-pip install -e .
-pip install -r requirements-dev.txt
+pip install -e '.[dev]'
 pre-commit install
 ```
 
@@ -81,4 +60,10 @@ To run the tests:
 
 ```shell
 ./scripts/test
+```
+
+If you've updated the STAC metadata output, update the examples:
+
+```shell
+scripts/update-examples
 ```
