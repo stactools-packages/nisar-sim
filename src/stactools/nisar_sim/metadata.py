@@ -3,9 +3,10 @@ from typing import Any, Dict, List, Tuple, TypeVar
 
 import fsspec
 import h5py
+from numpy import ndarray
 from pystac import Asset, Item, MediaType
 from pystac.extensions.item_assets import AssetDefinition
-from shapely.geometry import mapping
+from shapely.geometry import Polygon, mapping
 from shapely.wkt import loads
 from stactools.nisar_sim import constants as c
 
@@ -37,8 +38,16 @@ class Metadata:
                     if not h5_polygon:
                         raise MetadataException("Unable to locate boundingPolygon")
                     polygon = loads(h5_polygon[()])
-                    geometry = mapping(polygon)
-                    bbox = list(polygon.bounds)
+                    if isinstance(polygon, Polygon):
+                        geometry = mapping(polygon)
+                        bbox = list(polygon.bounds)
+                    elif isinstance(polygon, ndarray):
+                        geometry = mapping(polygon[0])
+                        bbox = list(polygon[0].bounds)
+                    else:
+                        raise MetadataException(
+                            f"Unable to parse boundingPolygon of type {type(polygon)}"
+                        )
 
                     return geometry, bbox
 
@@ -63,7 +72,7 @@ def filename_convention(source: str) -> Dict[str, Any]:
 
     filename_convention = (
         r"NISAR_(?P<instrument>[L|S])(?P<level>[0-3])_(?P<processing_type>(PR|UR))_"
-        r"(?P<product_identifier>(RRSD|RIFG|ROFF|RSLC|RUNW|GCOV|COFF|GSLC|GUNW|SME2))_"
+        r"(?P<product_identifier>(RRSD|RIFG|ROFF|RSLC|RUNW|GCOV|GOFF|GSLC|GUNW|SME2))_"
         r"\d{3}_\d{3}_(?P<orbit_state>[A|D])_\d{3}\w?_.*"
         r"(?P<start_datetime>\d{8}T\d{6})_(?P<end_datetime>\d{8}T\d{6}).*"
     )
